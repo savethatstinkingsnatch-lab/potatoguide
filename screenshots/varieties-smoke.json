@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/varieties",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Colors and varieties · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 5141,
+      "bodyTextHash": "e59150a3a54f9821325d99f88e77986fd06a6bdd2fd877917e3dd5dbb900e822",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/varieties-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Colors and varieties · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 5102,
+      "bodyTextHash": "fcc99791471d8f2080e72240cc895187a19fc59046b5cf31fa0c78ec3df5bdc1",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/varieties-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/varieties-smoke.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/bags",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Canvas grow bags · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 6526,
+      "bodyTextHash": "5f703f560a708ee32eb153ed7e86733b30aa2cdb11d737efe9cd9e4b8f332360",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/bags-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Canvas grow bags · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 6487,
+      "bodyTextHash": "2b68080fe0eda4a80efa6cfed1608818e3ece38a5c2ea5221e265e01abc0e253",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/bags-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/bags-smoke.json"
+}

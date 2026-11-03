@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/buy",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Buy the book · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 1267,
+      "bodyTextHash": "ef37195ac31785433903a544ed58cc6af0997a68beff8c36a9afbc0306a41383",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Buy the book · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 1228,
+      "bodyTextHash": "5c6b1bb544af1a218f4655afe74f69fd1e630780f813f93ec2e426b0f49c226c",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/buy-smoke.json"
+}

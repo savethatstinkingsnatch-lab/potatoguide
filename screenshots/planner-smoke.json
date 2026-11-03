@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/planner",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Bag planner · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 3474,
+      "bodyTextHash": "9b7e5fdac036ccc461c8fe80f97d00fb4281d0a22e605cb9e8dadfedab41b26f",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/planner-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Bag planner · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 3435,
+      "bodyTextHash": "0d2ecb1e2134217284ab7a0496396ab02d2e587893a8d5fce9b8eea85fda1827",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/planner-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/planner-smoke.json"
+}

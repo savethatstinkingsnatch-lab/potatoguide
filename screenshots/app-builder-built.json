@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Potato Plot — a grower's guide",
+      "hasCanvas": false,
+      "bodyTextLen": 4134,
+      "bodyTextHash": "0dab5966fe137880e056d257e3c1943576028cf77bd92e04c335aa2233c3db5d",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Potato Plot — a grower's guide",
+      "hasCanvas": false,
+      "bodyTextLen": 4207,
+      "bodyTextHash": "7add07a76ea3cc41b8962d1bb92130df92b2d848d5231338899b9caee79311ad",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

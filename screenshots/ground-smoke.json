@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/ground",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Ground and boxes · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 5814,
+      "bodyTextHash": "396ca5939f2e48d58f1ac0bdb8047f95b9718c9455e61208da369e731b3f2672",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ground-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Ground and boxes · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 5775,
+      "bodyTextHash": "fa7091dc1b4abddb889ff1b06bd13e09665310f19040b669f150386876d1064c",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ground-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/ground-smoke.json"
+}

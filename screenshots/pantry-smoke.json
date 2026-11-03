@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/pantry",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Storage, canning, recipes · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 7610,
+      "bodyTextHash": "a81c5fa01b0cc31eb7bf526887966e70db28a99c0cd9687e46f9b0fdae4fe4f7",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/pantry-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Storage, canning, recipes · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 7571,
+      "bodyTextHash": "f757cf5760f8e86cfbb6879787ba8643b64f6e45c49db97d6408c4f540cdecf5",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/pantry-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/pantry-smoke.json"
+}

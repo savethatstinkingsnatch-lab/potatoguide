@@ -1,0 +1,326 @@
+import { S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/pantry-Djp8Nxsn.js
+var import_jsx_runtime = require_jsx_runtime();
+var RECIPES = [
+	{
+		title: "New potatoes, the week you dig them",
+		for: "Thin-skinned reds, golds, and fingerlings. These do not go in the cellar.",
+		steps: [
+			"Scrub a pound. Leave the skins on.",
+			"Cover with cold water by an inch, salt it, and bring it to a boil. Simmer until a thin knife meets no resistance, usually 12–18 minutes.",
+			"Drain. A tablespoon of butter and more salt. Eat them today or tomorrow."
+		]
+	},
+	{
+		title: "Roast, one color to a tray",
+		for: "Any potato that has a set skin. Russets go fluffy. Reds and fingerlings stay in one piece.",
+		steps: [
+			"Heat the oven to 425°F / 220°C. Cut 2 pounds into even pieces about an inch across.",
+			"Toss with 2 tablespoons of oil and salt. Purple flesh stains the oil, so give it its own tray.",
+			"Roast 30–40 minutes, turning once, until the edges brown and the center is tender."
+		]
+	},
+	{
+		title: "A baked russet",
+		for: "A storage russet, not a new potato.",
+		steps: [
+			"Heat the oven to 400°F / 200°C. Scrub, dry, and prick the potato once.",
+			"Set it on the rack, not wrapped in foil if you want a dry skin. A large one takes about 55–70 minutes.",
+			"It is done when a knife slides into the center with almost no push. Split it and salt it."
+		]
+	},
+	{
+		title: "Mash, without a blender",
+		for: "Yellow or white potatoes. Reds mash, but they stay waxier.",
+		steps: [
+			"Peel or not. Cut 2 pounds even and simmer in salted water until they break under a fork, 15–20 minutes.",
+			"Drain very well. Mash with a masher. A blender turns them to glue.",
+			"Add hot milk or a splash of the cooking water until the mash moves. Butter and salt last."
+		]
+	},
+	{
+		title: "A cured sweet potato, baked",
+		for: "Orange, cream, or purple. Cure it first or it tastes starchy.",
+		steps: [
+			"Heat the oven to 400°F / 200°C. Do not start from the refrigerator.",
+			"Set the root on the rack. Depending on thickness, 45–75 minutes.",
+			"Done when the center slumps. Purple flesh (Stokes, Okinawan) is supposed to look violet."
+		]
+	},
+	{
+		title: "Soup for this week, not for a jar",
+		for: "A plain potato, an onion, and water or stock.",
+		steps: [
+			"Simmer a chopped onion and a pound of potato, covered with liquid, until the potato falls apart, 20–25 minutes. Salt it.",
+			"Mash some of it into the broth if you want it thicker. Eat it this week, or cool it and freeze it.",
+			"Do not can this soup. Can the cubes by the tested method below, and make the soup when you open the jar."
+		]
+	}
+];
+function PantryPage() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
+		className: "mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
+				className: "max-w-3xl",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-xs font-medium tracking-widest text-russet-deep uppercase",
+						children: "After the harvest"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+						className: "mt-3 font-display text-4xl text-ink sm:text-5xl",
+						children: "Storage, the canner, and a few pans"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-4 text-lg leading-relaxed text-muted",
+						children: "Potatoes and sweet potatoes leave the garden on different terms, and they do not share a shelf. One wants a cold dark cellar. The other is ruined by the refrigerator. Neither is safe in a boiling-water bath."
+					})
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+				className: "mt-10 grid gap-4 lg:grid-cols-2",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+					className: "rounded-2xl bg-ink p-6 text-cream",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-xs font-medium tracking-widest text-cream/70 uppercase",
+							children: "Potato"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-2 font-display text-3xl",
+							children: "Cool, dark, and still able to breathe"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+							className: "mt-5 space-y-3 text-sm leading-relaxed text-cream/85",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Brush the dirt. Don’t wash. Water left on the skin is how a crate rots." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Cure 10–14 days around 50–60°F / 10–15°C, humid and dark, so cuts heal and skins set." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Then hold table potatoes near 45°F / 7°C, about 90% humidity, in a crate or paper bag. Not a sealed plastic bag. Not next to apples, which push them to sprout." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A kitchen fridge is drier and usually colder. Below about 40°F the starch turns to sugar, and the potato browns too dark when you fry it. A week at room temperature before frying undoes some of that." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "New potatoes, dug early with a thin skin, keep a few days. Only mature tubers with a set skin belong in storage. Check the crate and pull anything soft." })
+							]
+						})
+					]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+					className: "rounded-2xl bg-cream p-6 shadow-card",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-xs font-medium tracking-widest text-sage-ink uppercase",
+							children: "Sweet potato"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "mt-2 font-display text-3xl text-ink",
+							children: "Warm cure, then a mild room"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+							className: "mt-5 space-y-3 text-sm leading-relaxed text-muted",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Dig before frost. Brush the soil. Don’t wash. Every bruise is a place rot starts." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Cure 4–7 days at 80–85°F / 27–29°C and about 85–90% humidity, up to 10 days if the skins were badly scuffed. A crate in a warm room, loosely tented so air still moves and water doesn’t drip on the roots." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Then store at 55–60°F / 13–16°C, dark, with some humidity and some air. Cured roots keep for months. Uncured ones taste flat and rot sooner." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Below about 50°F they take chilling injury: hard centers, off flavor, rot when they warm up. The refrigerator does this. So does a potato cellar." })
+							]
+						})
+					]
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+				className: "mt-12",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "font-display text-3xl text-ink",
+					children: "What does not get stored or canned"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+					className: "mt-5 grid gap-3 sm:grid-cols-3",
+					children: [
+						["Green potatoes", "Light makes them bitter. Peel a small green patch. Throw out a tuber that is green through, or that tastes bitter after you cook a slice."],
+						["Soft, wet, or frozen", "One rotten potato takes the crate. Frost-damaged sweets and potatoes do not cure back into sound food."],
+						["A long sprout on a shriveled tuber", "Rub a short sprout off a potato that is still firm, and eat it soon. A soft, heavily sprouted one is finished."]
+					].map(([title, body]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+						className: "rounded-2xl bg-cream p-5 shadow-card",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+							className: "font-display text-xl text-ink",
+							children: title
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-2 text-sm leading-relaxed text-muted",
+							children: body
+						})]
+					}, title))
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+				className: "mt-12",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "font-display text-3xl text-ink",
+						children: "Canning is a pressure canner, or it isn’t canning"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "mt-4 max-w-3xl space-y-3 text-sm leading-relaxed text-muted",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Both plants are low-acid. A boiling-water bath, an atmospheric steam canner, an oven, or an open kettle does not get hot enough to deal with botulism risk. The times below are the USDA process for peeled pieces in jars, from the Complete Guide to Home Canning as published by the National Center for Home Food Preservation. Your elevation changes the pressure, not the minutes. The published chart stops at 8,000 feet." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Vent the canner so a steady stream of steam escapes for 10 minutes before you put the weight on. Start the clock when the canner is at pressure, not when you turn on the heat. If the pressure drops, bring it back and start the time over. Salt is optional and is not what makes the jar safe." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "If a lid doesn’t seal, refrigerate the jar and eat it soon. If a sealed jar spurts, smells wrong, or looks foamy or mushy in a way you don’t trust, do not taste it." })
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "mt-8 grid gap-4 lg:grid-cols-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+							className: "rounded-2xl bg-cream p-6 shadow-card",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+								className: "font-display text-2xl text-ink",
+								children: "White potatoes, cubed or whole"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+								className: "mt-4 space-y-3 text-sm leading-relaxed text-muted",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Use sound, mature potatoes. About 20 pounds fills 7 quarts; about 13 pounds fills 9 pints. Tubers held below 45°F may discolor in the jar. Whole potatoes should be 1–2 inches across. Larger ones get cut into ½-inch cubes." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Wash, peel, and hold the pieces in water with ascorbic acid so the cut faces don’t gray — 1 teaspoon of crystalline ascorbic acid per gallon of water." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Boil cubes 2 minutes, or whole potatoes 10 minutes. Drain." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Pack hot. Add 1 teaspoon of salt per quart if you want it. Cover with fresh boiling water, not the cooking water, leaving 1 inch of headspace. The cooking water is full of starch and is not the liquid the process was tested with." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Process pints 35 minutes, quarts 40 minutes, at the pressure in the table." })
+								]
+							})]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+							className: "rounded-2xl bg-cream p-6 shadow-card",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+								className: "font-display text-2xl text-ink",
+								children: "Sweet potatoes, pieces or whole"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ol", {
+								className: "mt-4 space-y-3 text-sm leading-relaxed text-muted",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Use small to medium roots, canned within a couple of months of harvest. About 17½ pounds fills 7 quarts; about 11 pounds fills 9 pints." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Wash. Boil or steam until the skins slip, about 15–20 minutes. Cool just enough to handle, then peel. Cut medium roots so the pieces in a jar are even. Small ones may stay whole. Do not mash them." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Pack hot, leaving 1 inch of headspace. Salt as for white potatoes, if you want it. Cover with fresh boiling water, or a syrup from a tested canning chart. Not the cooking liquid." }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Process pints 65 minutes, quarts 90 minutes. Same pressures as white potatoes. The clock is longer because the pieces are denser." })
+								]
+							})]
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "mt-6 max-w-full overflow-x-auto",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
+							className: "w-full min-w-xl text-left text-sm",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("caption", {
+									className: "mb-3 text-left font-medium text-ink",
+									children: "Canner pressure. The minutes do not change with elevation."
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", {
+									className: "text-muted",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
+										className: "border-b border-line",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+												className: "py-2 pr-4 font-medium",
+												children: "Gauge"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+												className: "py-2 pr-4 font-medium",
+												children: "Elevation"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+												className: "py-2 font-medium",
+												children: "Pressure"
+											})
+										]
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", { children: [
+									[
+										"Dial",
+										"0–2,000 ft",
+										"11 lb"
+									],
+									[
+										"Dial",
+										"2,001–4,000 ft",
+										"12 lb"
+									],
+									[
+										"Dial",
+										"4,001–6,000 ft",
+										"13 lb"
+									],
+									[
+										"Dial",
+										"6,001–8,000 ft",
+										"14 lb"
+									],
+									[
+										"Weighted",
+										"0–1,000 ft",
+										"10 lb"
+									],
+									[
+										"Weighted",
+										"Above 1,000 ft",
+										"15 lb"
+									]
+								].map(([gauge, elev, psi]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
+									className: "border-b border-line",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+											className: "py-2 pr-4 text-ink",
+											children: gauge
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+											className: "py-2 pr-4",
+											children: elev
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+											className: "py-2 tabular-nums",
+											children: psi
+										})
+									]
+								}, `${gauge}-${elev}`)) })
+							]
+						})
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+						className: "mt-6 max-w-3xl space-y-2 text-sm leading-relaxed text-muted",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Do not can mashed, pureed, or buttered potatoes or sweet potatoes. The jar heats too unevenly." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Do not can potato salad, fried potatoes, or a thickened soup." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Do not can unpeeled white potatoes. The tested process starts with peeled ones." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Do not shorten the time because the pieces looked soft going into the jar." })
+						]
+					})
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+				className: "mt-12",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "font-display text-3xl text-ink",
+					children: "A few ways to cook what you grew"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-6 grid gap-4 md:grid-cols-2",
+					children: RECIPES.map((recipe) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+						className: "rounded-2xl bg-cream p-5 shadow-card",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+								className: "font-display text-2xl text-ink",
+								children: recipe.title
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-2 text-sm text-muted",
+								children: recipe.for
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ol", {
+								className: "mt-4 space-y-2 text-sm leading-relaxed text-ink",
+								children: recipe.steps.map((step, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									className: "flex gap-3",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-display text-russet tabular-nums",
+										children: i + 1
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: step })]
+								}, step))
+							})
+						]
+					}, recipe.title))
+				})]
+			})
+		]
+	});
+}
+//#endregion
+export { PantryPage as component };

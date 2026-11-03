@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/fertilizer",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Fertilizer · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 4902,
+      "bodyTextHash": "0023c6ae56fa6dd3dde8b812eba83d62b71a9d1775dbeff91c1f0071e861e7d8",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/fertilizer-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Fertilizer · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 4926,
+      "bodyTextHash": "3c7fb980ce860b663215e2ee9742b7b89892c8279be6e00a29096e76eeee2ab3",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/fertilizer-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/fertilizer-smoke.json"
+}

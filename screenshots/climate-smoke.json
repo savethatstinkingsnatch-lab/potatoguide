@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/climate",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Climate guide · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 3007,
+      "bodyTextHash": "918409ac760ff60259ceafb272aa8ff4d143b0de4be3994e36d2072b04543e54",
+      "bodyTextPrefix": "Skip to content The Potato Plot Cool temperate · Northern · 4 × ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/climate-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Climate guide · The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 2968,
+      "bodyTextHash": "267422597d9fa8409a11ba1aeb0e1a7de34a321116e91187b69901f58d64a883",
+      "bodyTextPrefix": "Skip to content The Potato Plot Guide Colors Climate Fertilizer ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/climate-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/climate-smoke.json"
+}

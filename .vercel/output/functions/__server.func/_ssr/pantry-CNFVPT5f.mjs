@@ -1,5 +1,5 @@
 import { S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/pantry-Djp8Nxsn.js
+//#region node_modules/.nitro/vite/services/ssr/assets/pantry-CNFVPT5f.js
 var import_jsx_runtime = require_jsx_runtime();
 var RECIPES = [
 	{
@@ -96,7 +96,7 @@ function PantryPage() {
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Brush the dirt. Don’t wash. Water left on the skin is how a crate rots." }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Cure 10–14 days around 50–60°F / 10–15°C, humid and dark, so cuts heal and skins set." }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Then hold table potatoes near 45°F / 7°C, about 90% humidity, in a crate or paper bag. Not a sealed plastic bag. Not next to apples, which push them to sprout." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Then hold table potatoes near 45°F / 7°C, about 90% humidity, in a crate or paper bag. Not a sealed plastic bag. Not next to apples, which push them to sprout. For more on storing all your root crops, see Volume 12: Root Crops." }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A kitchen fridge is drier and usually colder. Below about 40°F the starch turns to sugar, and the potato browns too dark when you fry it. A week at room temperature before frying undoes some of that." }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "New potatoes, dug early with a thin skin, keep a few days. Only mature tubers with a set skin belong in storage. Check the crate and pull anything soft." })
 							]
@@ -146,6 +146,25 @@ function PantryPage() {
 							children: body
 						})]
 					}, title))
+				})]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+				className: "mt-12",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "font-display text-3xl text-ink",
+					children: "Saving your own seed potatoes"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "mt-4 max-w-3xl space-y-3 text-sm leading-relaxed text-muted",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "Potatoes are saved as potatoes, not seeds. Every potato you plant is a copy of its parent." }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+						className: "space-y-3",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Mark your healthiest plants during the season. Only save from plants that had no blight, no curled or mottled leaves, and a good crop." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Save egg-size potatoes from those plants. Cure them, then store them separately at 38 to 40°F, dark and humid, labeled “SEED - do not eat.”" }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Diseases, especially viruses, build up in home-saved potatoes over the years. Buy fresh certified seed potatoes every 2 to 3 years, or sooner if yields drop or leaves look curled or spotted." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Never save potatoes from plants with late blight. Dig up and destroy any “volunteer” potatoes that sprout on their own, and don’t leave a pile of culls. Blight survives the winter in them." }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "The little green berries hold true potato seed. Plants from that seed are new potatoes that don’t match the parent, and the berries are poisonous. Leave them for experts." })
+						]
+					})]
 				})]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {

@@ -259,7 +259,7 @@ export function checklist(mode: CropMode, climate: ClimateId): Task[] {
       "Before planting",
       "potato",
       "cut",
-      "Cut large seed into 1½–2 oz pieces with at least one eye. Let the cut faces dry overnight so they don't rot in the bag.",
+      "Cut large seed potatoes into pieces about the size of an egg (1½ to 2 oz), each with 2 or 3 eyes. Let the cut sides dry and heal for 1 to 3 days in a cool, airy spot before planting, so they don't rot. Small seed potatoes (egg-size) can be planted whole without cutting.",
     );
   }
   if (mode !== "potato") {

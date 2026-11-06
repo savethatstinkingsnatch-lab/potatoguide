@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/glossary",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Glossary · Potatoes: The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 1262,
+      "bodyTextHash": "b91cdfe0ec6686bb29d4f6345c642534bbeb92c4b3923710e6435f95990ff475",
+      "bodyTextPrefix": "Skip to content Potatoes: The Potato Plot Cool temperate · North",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/glossary-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Glossary · Potatoes: The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 1223,
+      "bodyTextHash": "907af8156564ab9a51a0f65392a008dddd497d09e12e2dc12cd629088c68a207",
+      "bodyTextPrefix": "Skip to content Potatoes: The Potato Plot Guide Start Colors Cli",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/glossary-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/glossary-smoke.json"
+}

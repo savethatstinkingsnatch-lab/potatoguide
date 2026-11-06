@@ -7,6 +7,7 @@ import { Tuber } from "@/components/tuber";
 
 const NAV = [
   { to: "/", label: "Guide" },
+  { to: "/start", label: "Start" },
   { to: "/varieties", label: "Colors" },
   { to: "/climate", label: "Climate" },
   { to: "/fertilizer", label: "Fertilizer" },
@@ -14,6 +15,7 @@ const NAV = [
   { to: "/ground", label: "Ground & boxes" },
   { to: "/pantry", label: "Pantry" },
   { to: "/planner", label: "Planner" },
+  { to: "/glossary", label: "Glossary" },
 ] as const;
 
 function isCurrent(pathname: string, to: string) {
@@ -51,7 +53,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             <Link to="/" className="flex min-h-11 items-center gap-2.5">
               <Tuber skin="#8d6844" flesh="#f0c84a" label="" size="sm" />
               <span className="font-display text-xl leading-none tracking-tight">
-                The Potato Plot
+                Potatoes: The Potato Plot
               </span>
             </Link>
             <Link
@@ -91,10 +93,15 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       <footer className="border-t border-line">
         <div className="mx-auto max-w-6xl px-4 py-8 text-sm leading-relaxed text-muted sm:px-6">
           <p>
-            <span className="text-ink">The Potato Plot</span> by Jessica McIntosh. Home-garden
-            guidance, not a soil test and not a pesticide label. Potatoes (
-            <em>Solanum tuberosum</em>) and sweet potatoes (<em>Ipomoea batatas</em>) are different
-            plants. A US grocery “yam” is almost always an orange sweet potato, not a true yam.
+            <span className="text-ink">Potatoes: The Potato Plot</span> by Blue and the Awesome
+            Dudes. Part of The Education Revolution pocket guide series. Home-garden guidance, not
+            a soil test and not a pesticide label. Potatoes (<em>Solanum tuberosum</em>) and sweet
+            potatoes (<em>Ipomoea batatas</em>) are different plants. A US grocery “yam” is almost
+            always an orange sweet potato, not a true yam.
+          </p>
+          <p className="mt-3">
+            Privacy: This guide does not collect your name, email, or any personal information.
+            Your planner choices are saved only on your own device.
           </p>
         </div>
       </footer>

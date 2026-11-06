@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/start",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Start here · Potatoes: The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 1238,
+      "bodyTextHash": "b27d130139c852adc70871cb9b5fbe6f3fb83677795fe2b74d20a26e82c5d376",
+      "bodyTextPrefix": "Skip to content Potatoes: The Potato Plot Cool temperate · North",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/start-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Start here · Potatoes: The Potato Plot",
+      "hasCanvas": false,
+      "bodyTextLen": 1199,
+      "bodyTextHash": "25e0245dc39e624db5ae56bdd4760defedc06ff4caf4b0dc0fe070211e45867e",
+      "bodyTextPrefix": "Skip to content Potatoes: The Potato Plot Guide Start Colors Cli",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/start-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/start-smoke.json"
+}

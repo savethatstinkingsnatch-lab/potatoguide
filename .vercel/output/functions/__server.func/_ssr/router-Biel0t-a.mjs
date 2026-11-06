@@ -889,7 +889,7 @@ function cropLabel(crop) {
 	return crop === "potato" ? "Potato" : "Sweet potato";
 }
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/router-pT1nR7Nm.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-Biel0t-a.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -1444,7 +1444,7 @@ function checklist(mode, climate) {
 	if (mode !== "sweet") {
 		add("Before planting", "potato", "seed", "Buy certified seed potatoes. Grocery tubers are often treated so they won't sprout, and they can carry disease.");
 		add("Before planting", "potato", "chit", "Chit them in bright, cool light for two to three weeks. You want short stout sprouts, not long white threads in a dark cupboard.");
-		add("Before planting", "potato", "cut", "Cut large seed into 1½–2 oz pieces with at least one eye. Let the cut faces dry overnight so they don't rot in the bag.");
+		add("Before planting", "potato", "cut", "Cut large seed potatoes into pieces about the size of an egg (1½ to 2 oz), each with 2 or 3 eyes. Let the cut sides dry and heal for 1 to 3 days in a cool, airy spot before planting, so they don't rot. Small seed potatoes (egg-size) can be planted whole without cutting.");
 	}
 	if (mode !== "potato") add("Before planting", "sweet", "slips", "Start slips four to six weeks ahead, or order them to arrive after the mix will hold 65°F / 18°C.");
 	if (mode !== "sweet") {
@@ -1545,6 +1545,10 @@ var NAV = [
 		label: "Guide"
 	},
 	{
+		to: "/start",
+		label: "Start"
+	},
+	{
 		to: "/varieties",
 		label: "Colors"
 	},
@@ -1571,6 +1575,10 @@ var NAV = [
 	{
 		to: "/planner",
 		label: "Planner"
+	},
+	{
+		to: "/glossary",
+		label: "Glossary"
 	}
 ];
 function isCurrent(pathname, to) {
@@ -1613,7 +1621,7 @@ function SiteShell({ children }) {
 								size: "sm"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 								className: "font-display text-xl leading-none tracking-tight",
-								children: "The Potato Plot"
+								children: "Potatoes: The Potato Plot"
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Link, {
 							to: "/planner",
@@ -1657,27 +1665,30 @@ function SiteShell({ children }) {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
 				className: "border-t border-line",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "mx-auto max-w-6xl px-4 py-8 text-sm leading-relaxed text-muted sm:px-6",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 							className: "text-ink",
-							children: "The Potato Plot"
+							children: "Potatoes: The Potato Plot"
 						}),
-						" by Jessica McIntosh. Home-garden guidance, not a soil test and not a pesticide label. Potatoes (",
+						" by Blue and the Awesome Dudes. Part of The Education Revolution pocket guide series. Home-garden guidance, not a soil test and not a pesticide label. Potatoes (",
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "Solanum tuberosum" }),
 						") and sweet potatoes (",
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", { children: "Ipomoea batatas" }),
 						") are different plants. A US grocery “yam” is almost always an orange sweet potato, not a true yam."
-					] })
+					] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-3",
+						children: "Privacy: This guide does not collect your name, email, or any personal information. Your planner choices are saved only on your own device."
+					})]
 				})
 			})
 		]
 	});
 }
-var styles_default = "/assets/styles-C2vY2nwJ.css";
-var APP_NAME = "The Potato Plot";
-var Route$8 = createRootRoute({
+var styles_default = "/assets/styles-bk24VAxm.css";
+var APP_NAME = "Potatoes: The Potato Plot";
+var Route$10 = createRootRoute({
 	head: () => ({
 		meta: [
 			{ charSet: "utf-8" },
@@ -1738,42 +1749,52 @@ var Route$8 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$7 = () => import("./routes-BmSNKXQG.mjs");
-var Route$7 = createFileRoute("/")({
-	head: () => ({ meta: [{ title: "The Potato Plot — a grower's guide" }] }),
+var $$splitComponentImporter$9 = () => import("./routes-BZx9H5LF.mjs");
+var Route$9 = createFileRoute("/")({
+	head: () => ({ meta: [{ title: "Potatoes: The Potato Plot" }] }),
+	component: lazyRouteComponent($$splitComponentImporter$9, "component")
+});
+var $$splitComponentImporter$8 = () => import("./bags-Dy_77z_Y.mjs");
+var Route$8 = createFileRoute("/bags")({
+	head: () => ({ meta: [{ title: "Canvas grow bags · The Potato Plot" }] }),
+	component: lazyRouteComponent($$splitComponentImporter$8, "component")
+});
+var $$splitComponentImporter$7 = () => import("./climate-BRurk0NA.mjs");
+var Route$7 = createFileRoute("/climate")({
+	head: () => ({ meta: [{ title: "Climate guide · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("./bags-Dy_77z_Y.mjs");
-var Route$6 = createFileRoute("/bags")({
-	head: () => ({ meta: [{ title: "Canvas grow bags · The Potato Plot" }] }),
+var $$splitComponentImporter$6 = () => import("./fertilizer-VxbSTNFe.mjs");
+var Route$6 = createFileRoute("/fertilizer")({
+	head: () => ({ meta: [{ title: "Fertilizer · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$6, "component")
 });
-var $$splitComponentImporter$5 = () => import("./climate-Ix6ZBrrc.mjs");
-var Route$5 = createFileRoute("/climate")({
-	head: () => ({ meta: [{ title: "Climate guide · The Potato Plot" }] }),
+var $$splitComponentImporter$5 = () => import("./glossary-CteZwNgK.mjs");
+var Route$5 = createFileRoute("/glossary")({
+	head: () => ({ meta: [{ title: "Glossary · Potatoes: The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./fertilizer-VxbSTNFe.mjs");
-var Route$4 = createFileRoute("/fertilizer")({
-	head: () => ({ meta: [{ title: "Fertilizer · The Potato Plot" }] }),
+var $$splitComponentImporter$4 = () => import("./ground-DfpJkgu5.mjs");
+var Route$4 = createFileRoute("/ground")({
+	head: () => ({ meta: [{ title: "Ground and boxes · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./ground-DfpJkgu5.mjs");
-var Route$3 = createFileRoute("/ground")({
-	head: () => ({ meta: [{ title: "Ground and boxes · The Potato Plot" }] }),
+var $$splitComponentImporter$3 = () => import("./pantry-CNFVPT5f.mjs");
+var Route$3 = createFileRoute("/pantry")({
+	head: () => ({ meta: [{ title: "Storage, canning, recipes · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./pantry-Djp8Nxsn.mjs");
-var Route$2 = createFileRoute("/pantry")({
-	head: () => ({ meta: [{ title: "Storage, canning, recipes · The Potato Plot" }] }),
+var $$splitComponentImporter$2 = () => import("./planner-ClOouR6P.mjs");
+var Route$2 = createFileRoute("/planner")({
+	head: () => ({ meta: [{ title: "Bag planner · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./planner-DEOArWI8.mjs");
-var Route$1 = createFileRoute("/planner")({
-	head: () => ({ meta: [{ title: "Bag planner · The Potato Plot" }] }),
+var $$splitComponentImporter$1 = () => import("./start-8c25ip1d.mjs");
+var Route$1 = createFileRoute("/start")({
+	head: () => ({ meta: [{ title: "Start here · Potatoes: The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./varieties-CLYu5kre.mjs");
+var $$splitComponentImporter = () => import("./varieties-DJPOQyqq.mjs");
 var COLORS = new Set(COLOR_FILTERS.map((c) => c.id));
 var Route = createFileRoute("/varieties")({
 	validateSearch: (search) => {
@@ -1787,48 +1808,58 @@ var Route = createFileRoute("/varieties")({
 	component: lazyRouteComponent($$splitComponentImporter, "component")
 });
 var rootRouteChildren = {
-	IndexRoute: Route$7.update({
+	IndexRoute: Route$9.update({
 		id: "/",
 		path: "/",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	}),
-	BagsRoute: Route$6.update({
+	BagsRoute: Route$8.update({
 		id: "/bags",
 		path: "/bags",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	}),
-	ClimateRoute: Route$5.update({
+	ClimateRoute: Route$7.update({
 		id: "/climate",
 		path: "/climate",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	}),
-	FertilizerRoute: Route$4.update({
+	FertilizerRoute: Route$6.update({
 		id: "/fertilizer",
 		path: "/fertilizer",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	}),
-	GroundRoute: Route$3.update({
+	GlossaryRoute: Route$5.update({
+		id: "/glossary",
+		path: "/glossary",
+		getParentRoute: () => Route$10
+	}),
+	GroundRoute: Route$4.update({
 		id: "/ground",
 		path: "/ground",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	}),
-	PantryRoute: Route$2.update({
+	PantryRoute: Route$3.update({
 		id: "/pantry",
 		path: "/pantry",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	}),
-	PlannerRoute: Route$1.update({
+	PlannerRoute: Route$2.update({
 		id: "/planner",
 		path: "/planner",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
+	}),
+	StartRoute: Route$1.update({
+		id: "/start",
+		path: "/start",
+		getParentRoute: () => Route$10
 	}),
 	VarietiesRoute: Route.update({
 		id: "/varieties",
 		path: "/varieties",
-		getParentRoute: () => Route$8
+		getParentRoute: () => Route$10
 	})
 };
-var routeTree = Route$8._addFileChildren(rootRouteChildren)._addFileTypes();
+var routeTree = Route$10._addFileChildren(rootRouteChildren)._addFileTypes();
 var router_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 function getRouter() {
 	return createRouter({

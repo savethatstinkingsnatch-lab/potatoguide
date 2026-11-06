@@ -1,6 +1,6 @@
 import { S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { h as ATLAS, r as Tuber } from "./router-pT1nR7Nm.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BmSNKXQG.js
+import { h as ATLAS, r as Tuber } from "./router-Biel0t-a.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BZx9H5LF.js
 var import_jsx_runtime = require_jsx_runtime();
 var ROWS = [
 	{
@@ -37,39 +37,51 @@ var ROWS = [
 var CHAPTERS = [
 	{
 		n: "01",
+		href: "/start",
+		title: "Start here",
+		text: "Certified seed or slips, a bag or a bed, when to plant, and the one rule that is not the same for both plants."
+	},
+	{
+		n: "02",
 		href: "/varieties",
 		title: "Every color",
 		text: "Russet, white, gold, red, purple, and the fingerlings — then orange, cream, and purple sweet potatoes, which are a different plant wearing some of the same words."
 	},
 	{
-		n: "02",
+		n: "03",
 		href: "/climate",
 		title: "Climate",
 		text: "A month strip for five kinds of weather, both hemispheres. Potatoes ride the cool edge of the year. Sweet potatoes ride the heat."
 	},
 	{
-		n: "03",
+		n: "04",
 		href: "/fertilizer",
 		title: "Fertilizer",
 		text: "What 5-10-10 actually means, why lime and fresh manure cause scab, and when a pale leaf is asking for food versus showing off too much of it."
 	},
 	{
-		n: "04",
+		n: "05",
 		href: "/bags",
 		title: "Canvas bags",
 		text: "You already have the bags. How to fold, fill, water, and keep the cloth alive — and the one method that must not be copied from potatoes onto sweets."
 	},
 	{
-		n: "05",
+		n: "06",
 		href: "/ground",
 		title: "Ground and boxes",
 		text: "If the potatoes are not already buried, cover the stems with hay and then dirt each time they stand up. Boxes get another board before each lift. Sweet potatoes never do."
 	},
 	{
-		n: "06",
+		n: "07",
 		href: "/pantry",
 		title: "Storage, canning, cooking",
 		text: "A cold dark hold for potatoes, a warm cure for sweet potatoes, pressure-canner times, and a few pans that match the color you grew."
+	},
+	{
+		n: "08",
+		href: "/glossary",
+		title: "Glossary",
+		text: "Seed potato, chitting, slips, solanine, volunteers, and the rest of the words this book uses without stopping to define them."
 	}
 ];
 function Home() {
@@ -81,7 +93,7 @@ function Home() {
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-xs font-medium tracking-widest text-russet-deep uppercase",
-						children: "A book by Jessica McIntosh"
+						children: "The Education Revolution Pocket Guide, Volume 13 · by Blue and the Awesome Dudes"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 						className: "mt-4 max-w-xl font-display text-4xl text-ink sm:text-6xl",
@@ -94,13 +106,13 @@ function Home() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "mt-8 flex flex-wrap gap-3",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-							to: "/bags",
+							to: "/start",
 							className: "inline-flex min-h-11 items-center rounded-full bg-russet-deep px-5 text-sm font-medium text-cream",
-							children: "Start with the canvas bags"
+							children: "Start here"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
-							to: "/planner",
+							to: "/bags",
 							className: "inline-flex min-h-11 items-center rounded-full bg-cream px-5 text-sm font-medium text-ink shadow-card",
-							children: "Size a bag"
+							children: "Canvas bags"
 						})]
 					})
 				]
@@ -158,6 +170,33 @@ function Home() {
 					children: "Skin and flesh are different facts. A red potato is usually white inside. A purple sweet potato may have dull tan skin."
 				})]
 			})]
+		}),
+		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+			className: "border-t border-line",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "mx-auto max-w-6xl px-4 py-10 sm:px-6",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "max-w-3xl rounded-2xl bg-ink p-6 text-cream sm:p-8",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+							className: "font-display text-3xl",
+							children: "Stay safe"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+							className: "mt-4 space-y-3 text-sm leading-relaxed text-cream/85",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Green potatoes: Green means solanine, a natural poison. Peel away all the green deeply. Throw away a potato that is green through or tastes bitter." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "The plant: Potato leaves, stems, sprouts, and the small green berries that look like cherry tomatoes are poisonous. Keep kids and pets away from them. Never eat the berries." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Canning: Potatoes and sweet potatoes must be pressure canned. Never use a water bath." })
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-4 text-sm leading-relaxed text-cream",
+							children: "If someone eats something poisonous, call Poison Control at 1-800-222-1222."
+						})
+					]
+				})
+			})
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 			id: "plants",

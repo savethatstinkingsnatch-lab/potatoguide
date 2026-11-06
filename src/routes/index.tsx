@@ -4,7 +4,7 @@ import { Tuber } from "@/components/tuber";
 
 export const Route = createFileRoute("/")({
   head: () => ({
-    meta: [{ title: "The Potato Plot — a grower's guide" }],
+    meta: [{ title: "Potatoes: The Potato Plot" }],
   }),
   component: Home,
 });
@@ -45,39 +45,51 @@ const ROWS: { label: string; potato: string; sweet: string }[] = [
 const CHAPTERS = [
   {
     n: "01",
+    href: "/start",
+    title: "Start here",
+    text: "Certified seed or slips, a bag or a bed, when to plant, and the one rule that is not the same for both plants.",
+  },
+  {
+    n: "02",
     href: "/varieties",
     title: "Every color",
     text: "Russet, white, gold, red, purple, and the fingerlings — then orange, cream, and purple sweet potatoes, which are a different plant wearing some of the same words.",
   },
   {
-    n: "02",
+    n: "03",
     href: "/climate",
     title: "Climate",
     text: "A month strip for five kinds of weather, both hemispheres. Potatoes ride the cool edge of the year. Sweet potatoes ride the heat.",
   },
   {
-    n: "03",
+    n: "04",
     href: "/fertilizer",
     title: "Fertilizer",
     text: "What 5-10-10 actually means, why lime and fresh manure cause scab, and when a pale leaf is asking for food versus showing off too much of it.",
   },
   {
-    n: "04",
+    n: "05",
     href: "/bags",
     title: "Canvas bags",
     text: "You already have the bags. How to fold, fill, water, and keep the cloth alive — and the one method that must not be copied from potatoes onto sweets.",
   },
   {
-    n: "05",
+    n: "06",
     href: "/ground",
     title: "Ground and boxes",
     text: "If the potatoes are not already buried, cover the stems with hay and then dirt each time they stand up. Boxes get another board before each lift. Sweet potatoes never do.",
   },
   {
-    n: "06",
+    n: "07",
     href: "/pantry",
     title: "Storage, canning, cooking",
     text: "A cold dark hold for potatoes, a warm cure for sweet potatoes, pressure-canner times, and a few pans that match the color you grew.",
+  },
+  {
+    n: "08",
+    href: "/glossary",
+    title: "Glossary",
+    text: "Seed potato, chitting, slips, solanine, volunteers, and the rest of the words this book uses without stopping to define them.",
   },
 ] as const;
 
@@ -87,7 +99,7 @@ function Home() {
       <section className="mx-auto grid max-w-6xl gap-10 px-4 py-10 sm:px-6 sm:py-16 lg:grid-cols-12 lg:items-end">
         <div className="lg:col-span-7">
           <p className="text-xs font-medium tracking-widest text-russet-deep uppercase">
-            A book by Jessica McIntosh
+            The Education Revolution Pocket Guide, Volume 13 · by Blue and the Awesome Dudes
           </p>
           <h1 className="mt-4 max-w-xl font-display text-4xl text-ink sm:text-6xl">
             Every color. Both plants. The bags you already have.
@@ -98,16 +110,16 @@ function Home() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              to="/bags"
+              to="/start"
               className="inline-flex min-h-11 items-center rounded-full bg-russet-deep px-5 text-sm font-medium text-cream"
             >
-              Start with the canvas bags
+              Start here
             </Link>
             <Link
-              to="/planner"
+              to="/bags"
               className="inline-flex min-h-11 items-center rounded-full bg-cream px-5 text-sm font-medium text-ink shadow-card"
             >
-              Size a bag
+              Canvas bags
             </Link>
           </div>
         </div>
@@ -125,6 +137,32 @@ function Home() {
             Skin and flesh are different facts. A red potato is usually white inside. A purple
             sweet potato may have dull tan skin.
           </p>
+        </div>
+      </section>
+
+      <section className="border-t border-line">
+        <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+          <div className="max-w-3xl rounded-2xl bg-ink p-6 text-cream sm:p-8">
+            <h2 className="font-display text-3xl">Stay safe</h2>
+            <ul className="mt-4 space-y-3 text-sm leading-relaxed text-cream/85">
+              <li>
+                Green potatoes: Green means solanine, a natural poison. Peel away all the green
+                deeply. Throw away a potato that is green through or tastes bitter.
+              </li>
+              <li>
+                The plant: Potato leaves, stems, sprouts, and the small green berries that look
+                like cherry tomatoes are poisonous. Keep kids and pets away from them. Never eat
+                the berries.
+              </li>
+              <li>
+                Canning: Potatoes and sweet potatoes must be pressure canned. Never use a water
+                bath.
+              </li>
+            </ul>
+            <p className="mt-4 text-sm leading-relaxed text-cream">
+              If someone eats something poisonous, call Poison Control at 1-800-222-1222.
+            </p>
+          </div>
         </div>
       </section>
 

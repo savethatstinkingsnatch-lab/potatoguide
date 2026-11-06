@@ -1,6 +1,6 @@
 import { S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { C as varietiesFor, S as shiftMonths, g as CLIMATES, i as useGardenStore, v as MONTHS, y as PHASE_LABEL } from "./router-pT1nR7Nm.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/climate-Ix6ZBrrc.js
+import { C as varietiesFor, S as shiftMonths, g as CLIMATES, i as useGardenStore, v as MONTHS, y as PHASE_LABEL } from "./router-Biel0t-a.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/climate-BRurk0NA.js
 var import_jsx_runtime = require_jsx_runtime();
 var PHASES = [
 	"prep",

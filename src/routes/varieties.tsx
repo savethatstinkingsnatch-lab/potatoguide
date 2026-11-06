@@ -138,6 +138,14 @@ function VarietiesPage() {
         })}
       </div>
 
+      <p className="mt-6 max-w-3xl text-sm leading-relaxed text-muted">
+        Potatoes and sweet potatoes are grown from tubers and slips, so every plant is a copy of
+        its parent. “Open-pollinated” and “hybrid” don’t matter here. Some newer varieties are
+        protected by a patent or a Plant Variety Protection certificate, and the tag or catalog
+        will say so. You can grow those for your own table, but you may not sell or give away
+        tubers or slips of them for planting. Older varieties are free to share.
+      </p>
+
       <p className="mt-6 text-sm text-muted tabular-nums">
         {list.length} {list.length === 1 ? "variety" : "varieties"}
         {search.crop !== "all" || search.color !== "all" ? (

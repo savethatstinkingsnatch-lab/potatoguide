@@ -13,9 +13,11 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as BagsRouteImport } from './routes/bags'
 import { Route as ClimateRouteImport } from './routes/climate'
 import { Route as FertilizerRouteImport } from './routes/fertilizer'
+import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as GroundRouteImport } from './routes/ground'
 import { Route as PantryRouteImport } from './routes/pantry'
 import { Route as PlannerRouteImport } from './routes/planner'
+import { Route as StartRouteImport } from './routes/start'
 import { Route as VarietiesRouteImport } from './routes/varieties'
 
 const IndexRoute = IndexRouteImport.update({
@@ -38,6 +40,11 @@ const FertilizerRoute = FertilizerRouteImport.update({
   path: '/fertilizer',
   getParentRoute: () => rootRouteImport,
 } as any)
+const GlossaryRoute = GlossaryRouteImport.update({
+  id: '/glossary',
+  path: '/glossary',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GroundRoute = GroundRouteImport.update({
   id: '/ground',
   path: '/ground',
@@ -53,6 +60,11 @@ const PlannerRoute = PlannerRouteImport.update({
   path: '/planner',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StartRoute = StartRouteImport.update({
+  id: '/start',
+  path: '/start',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const VarietiesRoute = VarietiesRouteImport.update({
   id: '/varieties',
   path: '/varieties',
@@ -64,9 +76,11 @@ export interface FileRoutesByFullPath {
   '/bags': typeof BagsRoute
   '/climate': typeof ClimateRoute
   '/fertilizer': typeof FertilizerRoute
+  '/glossary': typeof GlossaryRoute
   '/ground': typeof GroundRoute
   '/pantry': typeof PantryRoute
   '/planner': typeof PlannerRoute
+  '/start': typeof StartRoute
   '/varieties': typeof VarietiesRoute
 }
 export interface FileRoutesByTo {
@@ -74,9 +88,11 @@ export interface FileRoutesByTo {
   '/bags': typeof BagsRoute
   '/climate': typeof ClimateRoute
   '/fertilizer': typeof FertilizerRoute
+  '/glossary': typeof GlossaryRoute
   '/ground': typeof GroundRoute
   '/pantry': typeof PantryRoute
   '/planner': typeof PlannerRoute
+  '/start': typeof StartRoute
   '/varieties': typeof VarietiesRoute
 }
 export interface FileRoutesById {
@@ -85,9 +101,11 @@ export interface FileRoutesById {
   '/bags': typeof BagsRoute
   '/climate': typeof ClimateRoute
   '/fertilizer': typeof FertilizerRoute
+  '/glossary': typeof GlossaryRoute
   '/ground': typeof GroundRoute
   '/pantry': typeof PantryRoute
   '/planner': typeof PlannerRoute
+  '/start': typeof StartRoute
   '/varieties': typeof VarietiesRoute
 }
 export interface FileRouteTypes {
@@ -97,9 +115,11 @@ export interface FileRouteTypes {
     | '/bags'
     | '/climate'
     | '/fertilizer'
+    | '/glossary'
     | '/ground'
     | '/pantry'
     | '/planner'
+    | '/start'
     | '/varieties'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -107,9 +127,11 @@ export interface FileRouteTypes {
     | '/bags'
     | '/climate'
     | '/fertilizer'
+    | '/glossary'
     | '/ground'
     | '/pantry'
     | '/planner'
+    | '/start'
     | '/varieties'
   id:
     | '__root__'
@@ -117,9 +139,11 @@ export interface FileRouteTypes {
     | '/bags'
     | '/climate'
     | '/fertilizer'
+    | '/glossary'
     | '/ground'
     | '/pantry'
     | '/planner'
+    | '/start'
     | '/varieties'
   fileRoutesById: FileRoutesById
 }
@@ -128,9 +152,11 @@ export interface RootRouteChildren {
   BagsRoute: typeof BagsRoute
   ClimateRoute: typeof ClimateRoute
   FertilizerRoute: typeof FertilizerRoute
+  GlossaryRoute: typeof GlossaryRoute
   GroundRoute: typeof GroundRoute
   PantryRoute: typeof PantryRoute
   PlannerRoute: typeof PlannerRoute
+  StartRoute: typeof StartRoute
   VarietiesRoute: typeof VarietiesRoute
 }
 
@@ -164,6 +190,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FertilizerRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/glossary': {
+      id: '/glossary'
+      path: '/glossary'
+      fullPath: '/glossary'
+      preLoaderRoute: typeof GlossaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/ground': {
       id: '/ground'
       path: '/ground'
@@ -185,6 +218,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PlannerRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/start': {
+      id: '/start'
+      path: '/start'
+      fullPath: '/start'
+      preLoaderRoute: typeof StartRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/varieties': {
       id: '/varieties'
       path: '/varieties'
@@ -200,9 +240,11 @@ const rootRouteChildren: RootRouteChildren = {
   BagsRoute: BagsRoute,
   ClimateRoute: ClimateRoute,
   FertilizerRoute: FertilizerRoute,
+  GlossaryRoute: GlossaryRoute,
   GroundRoute: GroundRoute,
   PantryRoute: PantryRoute,
   PlannerRoute: PlannerRoute,
+  StartRoute: StartRoute,
   VarietiesRoute: VarietiesRoute,
 }
 export const routeTree = rootRouteImport

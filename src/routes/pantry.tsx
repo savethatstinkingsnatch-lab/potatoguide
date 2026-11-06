@@ -92,7 +92,8 @@ function PantryPage() {
             </li>
             <li>
               Then hold table potatoes near 45°F / 7°C, about 90% humidity, in a crate or paper bag.
-              Not a sealed plastic bag. Not next to apples, which push them to sprout.
+              Not a sealed plastic bag. Not next to apples, which push them to sprout. For more on
+              storing all your root crops, see Volume 12: Root Crops.
             </li>
             <li>
               A kitchen fridge is drier and usually colder. Below about 40°F the starch turns to
@@ -150,6 +151,38 @@ function PantryPage() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="font-display text-3xl text-ink">Saving your own seed potatoes</h2>
+        <div className="mt-4 max-w-3xl space-y-3 text-sm leading-relaxed text-muted">
+          <p>Potatoes are saved as potatoes, not seeds. Every potato you plant is a copy of its parent.</p>
+          <ul className="space-y-3">
+            <li>
+              Mark your healthiest plants during the season. Only save from plants that had no
+              blight, no curled or mottled leaves, and a good crop.
+            </li>
+            <li>
+              Save egg-size potatoes from those plants. Cure them, then store them separately at 38
+              to 40°F, dark and humid, labeled “SEED - do not eat.”
+            </li>
+            <li>
+              Diseases, especially viruses, build up in home-saved potatoes over the years. Buy
+              fresh certified seed potatoes every 2 to 3 years, or sooner if yields drop or leaves
+              look curled or spotted.
+            </li>
+            <li>
+              Never save potatoes from plants with late blight. Dig up and destroy any “volunteer”
+              potatoes that sprout on their own, and don’t leave a pile of culls. Blight survives
+              the winter in them.
+            </li>
+            <li>
+              The little green berries hold true potato seed. Plants from that seed are new
+              potatoes that don’t match the parent, and the berries are poisonous. Leave them for
+              experts.
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section className="mt-12">

@@ -1,7 +1,7 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { J as require_react, S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as COLOR_FILTERS, b as VARIETIES, n as Route, r as Tuber, x as cropLabel } from "./router-pT1nR7Nm.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/varieties-CLYu5kre.js
+import { _ as COLOR_FILTERS, b as VARIETIES, n as Route, r as Tuber, x as cropLabel } from "./router-Biel0t-a.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/varieties-DJPOQyqq.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function matches(v, crop, color) {
@@ -96,6 +96,10 @@ function VarietiesPage() {
 						})]
 					}, filter.id);
 				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "mt-6 max-w-3xl text-sm leading-relaxed text-muted",
+				children: "Potatoes and sweet potatoes are grown from tubers and slips, so every plant is a copy of its parent. “Open-pollinated” and “hybrid” don’t matter here. Some newer varieties are protected by a patent or a Plant Variety Protection certificate, and the tag or catalog will say so. You can grow those for your own table, but you may not sell or give away tubers or slips of them for planting. Older varieties are free to share."
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 				className: "mt-6 text-sm text-muted tabular-nums",

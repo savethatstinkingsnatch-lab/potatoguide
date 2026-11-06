@@ -112,12 +112,11 @@ function PantryPage() {
           <ol className="mt-5 space-y-3 text-sm leading-relaxed text-muted">
             <li>Dig before frost. Brush the soil. Don’t wash. Every bruise is a place rot starts.</li>
             <li>
-              Cure 4–7 days at 80–85°F / 27–29°C and about 85–90% humidity, up to 10 days if the
-              skins were badly scuffed. A crate in a warm room, loosely tented so air still moves
-              and water doesn’t drip on the roots.
+              Cure 7–14 days at 80–85°F / 27–29°C and about 85–90% humidity. A crate in a warm room,
+              loosely tented so air still moves and water doesn’t drip on the roots.
             </li>
             <li>
-              Then store at 55–60°F / 13–16°C, dark, with some humidity and some air. Cured roots
+              Then store around 55–60°F / 13–16°C, dark, with some humidity and some air. Cured roots
               keep for months. Uncured ones taste flat and rot sooner.
             </li>
             <li>
@@ -134,7 +133,7 @@ function PantryPage() {
           {[
             [
               "Green potatoes",
-              "Light makes them bitter. Peel a small green patch. Throw out a tuber that is green through, or that tastes bitter after you cook a slice.",
+              "Light makes solanine. Do not eat a potato with extensive green skin or flesh, and do not eat the sprouts. Peel a small green patch deeply. Throw out a tuber that is green through, or that tastes bitter after you cook a slice.",
             ],
             [
               "Soft, wet, or frozen",
@@ -142,7 +141,7 @@ function PantryPage() {
             ],
             [
               "A long sprout on a shriveled tuber",
-              "Rub a short sprout off a potato that is still firm, and eat it soon. A soft, heavily sprouted one is finished.",
+              "Rub a short sprout off a potato that is still firm, throw the sprout away, and eat the potato soon. Do not eat sprouts. A soft, heavily sprouted tuber is finished.",
             ],
           ].map(([title, body]) => (
             <li key={title} className="rounded-2xl bg-cream p-5 shadow-card">

@@ -73,7 +73,7 @@ export const CLIMATES: Climate[] = [
   {
     id: "cold",
     title: "Cold, short summer",
-    zones: "USDA 3–4, high latitude, high elevation",
+    zones: "Rough winter context · USDA 3–4",
     summary:
       "Frost leaves late and comes back early. You get one tight window, and only varieties that finish.",
     potato:
@@ -117,13 +117,13 @@ export const CLIMATES: Climate[] = [
   {
     id: "cool",
     title: "Cool temperate",
-    zones: "USDA 5–6, classic potato country",
+    zones: "Rough winter context · USDA 5–6",
     summary:
       "A real summer that still cools off at night. This is the climate both the storage potato and a careful sweet potato can share.",
     potato:
       "Plant two to four weeks before the last frost, once soil is about 45°F / 7°C. Early, mid, and many late varieties finish. Russets and German Butterball belong here if water stays even.",
     sweet:
-      "Start slips indoors about a month before last frost. Plant out only when the bag stays at 65°F / 18°C — often late May or June. Choose 90 to 100 day oranges and creams. Long-season purple sweets usually miss.",
+      "Start slips indoors about a month before your last frost. Plant out only when the bag stays at 65°F / 18°C and frost is finished — in many of these gardens that is late May or June, but the soil thermometer decides, not the zone. Shorter-season oranges and creams are the realistic ones. Long-season purple sweets usually miss.",
     risks: [
       "A wet July invites late blight on lush vines, especially Kennebec. Don't compost infected leaves.",
       "Scab shows up if the mix is alkaline or the bag dries out right as tubers set.",
@@ -161,7 +161,7 @@ export const CLIMATES: Climate[] = [
   {
     id: "warm",
     title: "Warm summer",
-    zones: "USDA 7–8",
+    zones: "Rough winter context · USDA 7–8",
     summary:
       "Potatoes want the edges of the year. Sweet potatoes want the middle. Plant them on different calendars.",
     potato:
@@ -205,7 +205,7 @@ export const CLIMATES: Climate[] = [
   {
     id: "hot",
     title: "Hot, winter potato",
-    zones: "USDA 9–10, Gulf, desert, southern coasts",
+    zones: "Rough winter context · USDA 9–10",
     summary:
       "Grow potatoes in the cool season and sweet potatoes through the heat. Summer is the wrong time for a russet.",
     potato:
@@ -214,7 +214,7 @@ export const CLIMATES: Climate[] = [
       "A full season, all colors, including Okinawan and Stokes Purple if they go in on time. Harvest before any rare frost, and cure them. The refrigerator will ruin the texture.",
     risks: [
       "Potato tubers quit setting once the bag stays hot. If flowers never turn into size, the soil was too warm.",
-      "Nematodes build up in ground soil. New mix in the bag each year sidesteps that.",
+      "Nematodes can carry over in garden soil. Start with a clean bag and certified seed or disease-free slips. Fresh mix each year lowers that risk. It does not erase it.",
       "Desert wind dries canvas in a day. Plan on morning irrigation, not a weekly soak.",
     ],
     potatoMonths: [
@@ -249,7 +249,7 @@ export const CLIMATES: Climate[] = [
   {
     id: "tropical",
     title: "Tropical lowland",
-    zones: "USDA 11 and hotter lowlands",
+    zones: "Rough winter context · USDA 11 and hotter lowlands",
     summary:
       "Sweet potatoes are the staple. Potatoes are a cool-season experiment that often fails on heat and day length.",
     potato:
@@ -665,7 +665,7 @@ export const VARIETIES: Variety[] = [
     flesh: "Deep orange",
     skinHex: "#c46a32",
     fleshHex: "#e36a1e",
-    days: [90, 100],
+    days: [105, 110],
     texture: "Moist, sweet after curing",
     kitchen: "Baked, mashed, pies. The standard orange sweet potato.",
     climates: ["cool", "warm", "hot", "tropical"],
@@ -686,7 +686,7 @@ export const VARIETIES: Variety[] = [
     texture: "Moist, sweet",
     kitchen: "Same uses as Beauregard. Often a smoother root.",
     climates: ["cool", "warm", "hot", "tropical"],
-    bag: "Same bag method as Beauregard. A little slower, so in cool zones don't wait to plant.",
+    bag: "Same bag method as Beauregard. A little slower, so where frost comes early, don't wait to plant.",
     watch: "Bred for shape and disease tolerance in the field. In a fresh bag mix that advantage is smaller, but it is still an excellent orange.",
   },
   {
@@ -699,11 +699,11 @@ export const VARIETIES: Variety[] = [
     flesh: "Orange",
     skinHex: "#c47840",
     fleshHex: "#e07028",
-    days: [100, 120],
+    days: [120, 135],
     texture: "Moist, stores well",
     kitchen: "Baking and storage. A classic older orange.",
     climates: ["cool", "warm", "hot", "tropical"],
-    bag: "Give it 15 gallons if you can. It wants the full days on the label.",
+    bag: "Give it 15 gallons if you can. It wants the long end of a sweet-potato season.",
     watch: "Less sweet if you eat it uncured, straight from the bag.",
   },
   {
@@ -733,12 +733,12 @@ export const VARIETIES: Variety[] = [
     flesh: "Orange",
     skinHex: "#7a3858",
     fleshHex: "#ef7a28",
-    days: [80, 90],
+    days: [90, 100],
     texture: "Moist, milder until cured",
-    kitchen: "The short-season orange. Better after a week of curing.",
+    kitchen: "The shorter-season orange in many catalogs. Better after curing.",
     climates: ["cold", "cool", "warm", "hot"],
     bag: "The sweet potato for a cold summer, and still a gamble there. Black fabric under the bag and the hottest corner of the patio.",
-    watch: "Roots can be irregular. Flavor catches up only if you cure. In zone 3, consider it an experiment.",
+    watch: "Roots can be irregular. Flavor catches up only if you cure. Where the frost-free season is short, treat it as an experiment.",
   },
   {
     id: "o-henry",

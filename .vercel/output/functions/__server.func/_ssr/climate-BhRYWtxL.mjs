@@ -1,6 +1,6 @@
 import { S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { C as varietiesFor, S as shiftMonths, g as CLIMATES, i as useGardenStore, v as MONTHS, y as PHASE_LABEL } from "./router-Biel0t-a.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/climate-BRurk0NA.js
+import { C as varietiesFor, S as shiftMonths, g as CLIMATES, i as useGardenStore, v as MONTHS, y as PHASE_LABEL } from "./router-Cj4KMphb.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/climate-BhRYWtxL.js
 var import_jsx_runtime = require_jsx_runtime();
 var PHASES = [
 	"prep",
@@ -132,6 +132,10 @@ function ClimatePage() {
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: `inline-block size-3 rounded-sm phase-${phase}` }), PHASE_LABEL[phase]]
 							}, phase))
 						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-4 text-sm leading-relaxed text-muted",
+							children: "These months are a sketch for a season of this length, not a planting date from a USDA zone. Slide them to your last frost, your first frost, and the week the soil is actually warm enough. A hardiness zone only describes how cold winter usually gets."
+						}),
 						current.id === "tropical" ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "mt-4 text-sm text-muted",
 							children: "The sweet-potato strip is solid on purpose. Start a crop any month you can give it about four hot months and a drier week at the end to harvest and cure."
@@ -157,7 +161,7 @@ function ClimatePage() {
 								children: "Sweet potatoes"
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", {
 								className: "text-muted",
-								children: "Plant slips only after the bag stays at 65°F / 18°C and frost is finished. They need roughly 90 to 120 frost-free days after that, more for purple flesh."
+								children: "Plant slips only after the bag stays at 65°F / 18°C and frost is finished. They need a long frost-free run after that — often about three to four months, longer for purple flesh. Count from planting day. Catalog “days” are approximate."
 							})] })]
 						})]
 					})

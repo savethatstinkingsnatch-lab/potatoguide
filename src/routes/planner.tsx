@@ -73,7 +73,11 @@ function PlanBlock({ plan }: { plan: CropPlan }) {
       </p>
       <p className="mt-5 font-display text-4xl text-ink tabular-nums">
         {formatLb(plan.yieldLo)}–{formatLb(plan.yieldHi)}
-        <span className="ml-2 font-sans text-base text-muted">lb, if the season cooperates</span>
+        <span className="ml-2 font-sans text-base text-muted">lb, a rough guess</span>
+      </p>
+      <p className="mt-2 text-sm leading-relaxed text-muted">
+        Not a guaranteed harvest. Variety, spacing, weather, watering, and how large you let them
+        grow all move it. A smaller bag usually grows less.
       </p>
       <dl className="mt-6 grid gap-4 text-sm sm:grid-cols-2">
         <div>
@@ -97,8 +101,9 @@ function PlanBlock({ plan }: { plan: CropPlan }) {
             ) : null}
           </dd>
           <dd className="mt-2 text-muted">
-            Stir {plan.blend} of a low-nitrogen blend (5-10-10 or close) through the whole mix, plus{" "}
-            {plan.kelp} kelp meal.
+            Any fertilizer depends on the product and on what is already in the mix. Follow the
+            label for this crop, or a local recommendation. This planner does not prescribe
+            spoonfuls.
           </dd>
         </div>
       </dl>

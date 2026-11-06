@@ -10,7 +10,7 @@ export const Route = createFileRoute("/bags")({
 const POTATO_STEPS = [
   "Roll the sides of the bag down until the cloth is about a foot tall.",
   "Add 4 inches of the potato mix. Set seed pieces eyes-up, a few inches in from the canvas, not touching each other.",
-  "Cover with another 4 inches. Water until the cloth weeps, then stop.",
+  "Cover with another 4 inches. Water until the mix is evenly moist, then let it drain. The cloth may darken or drip; that is a sign, not a measured dose.",
   "When stems stand 6–8 inches above the mix, unroll a little and add mix, leaving the top leaves in the light. Stems that get buried will make more tuber-bearing stem.",
   "Repeat until the bag is full, or until flowering is heavy — whichever comes first. Don’t bury the growing tip.",
   "Mulch the surface. From here the job is even water, not more soil.",
@@ -102,12 +102,12 @@ function BagsPage() {
               </li>
             </ul>
             <p className="mt-4 text-sm leading-relaxed text-muted">
-              Plus the pre-plant feeding in the{" "}
+              Plus any pre-plant feeding from the{" "}
               <Link to="/fertilizer" className="font-medium text-russet-deep">
                 fertilizer guide
               </Link>
-              : ½ cup of a low-nitrogen blend per 10 gallons, mixed through, not tucked under the
-              seed. No lime.
+              . Use the rate on the product label, mixed through, not tucked under the seed. No
+              lime. Skip it if the potting mix is already fertilized.
             </p>
           </article>
           <article className="rounded-2xl bg-cream p-6 shadow-card">
@@ -128,7 +128,8 @@ function BagsPage() {
             </ul>
             <p className="mt-4 text-sm leading-relaxed text-muted">
               Leaner on purpose. Rich mix grows a beautiful morning-glory vine and skinny roots.
-              Optional 3 tablespoons of the same low-nitrogen blend per 10 gallons. Then stop.
+              If you add fertilizer, follow a sweet-potato label. Excess nitrogen is the mistake;
+              a total ban is not. Then stop adding it on a schedule.
             </p>
           </article>
         </div>
@@ -144,10 +145,11 @@ function BagsPage() {
               or 20 gallon bag is more forgiving and usually grows a better potato.
             </p>
             <p>
-              Push a finger in to the first knuckle. If it is dry, water until the fabric darkens
-              and drips, then stop. Morning is the right time. Lift the bag onto bricks or pot
-              feet so the bottom can breathe — a saucer of standing water rots both the cloth and
-              the tubers.
+              Push a finger in to the first knuckle. If it is dry, water until the mix is moist
+              through. The cloth may darken or drip; stop before it stays soggy. How often depends
+              on the mix, the bag, and the weather, not a fixed every-day rule. Morning is a good
+              time to check. Lift the bag onto bricks or pot feet so the bottom can breathe — a
+              saucer of standing water rots both the cloth and the tubers.
             </p>
             <p>
               The critical stretch for potatoes is flowering through bulking. Swinging from wilted
@@ -197,7 +199,7 @@ function BagsPage() {
                 <th className="py-3 pr-4 font-medium">Bag</th>
                 <th className="py-3 pr-4 font-medium">Potato seed pieces</th>
                 <th className="py-3 pr-4 font-medium">Sweet potato slips</th>
-                <th className="py-3 font-medium">A fair potato yield</th>
+                <th className="py-3 font-medium">Rough potato yield</th>
               </tr>
             </thead>
             <tbody className="tabular-nums">
@@ -221,8 +223,10 @@ function BagsPage() {
           </table>
         </div>
         <p className="mt-3 text-sm text-muted">
-          Sweet potato yields in the same sizes run a little lower in a small bag and similar once
-          the bag is 15 gallons and the season is actually hot. The{" "}
+          Sweet potato guesses in the same sizes run a little lower in a small bag and similar
+          once the bag is 15 gallons and the season is actually hot. None of these numbers are
+          guaranteed. Variety, spacing, weather, water, and harvest size all move them, and a
+          smaller container usually grows less. The{" "}
           <Link to="/planner" className="font-medium text-russet-deep">
             planner
           </Link>{" "}
@@ -234,7 +238,7 @@ function BagsPage() {
         <h2 className="font-display text-3xl text-ink">Five things you will actually see</h2>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2">
           {[
-            ["Green potatoes", "They saw light. Solanine is bitter and not for eating — peel a small patch or discard a fully green tuber. Hill and harvest in the shade. Sweet potatoes don’t green this way."],
+            ["Green potatoes", "They saw light. Solanine is bitter. Do not eat a potato with extensive green skin or flesh, and do not eat the sprouts. Peel a small green patch deeply, or discard a tuber that is green through. Hill and harvest in the shade. Sweet potatoes don’t green this way."],
             ["Corky scab", "Peel and eat. Next bag: no lime, no ash, no fresh manure, and don’t let the mix dry out as tubers set."],
             ["Striped beetles", "Colorado potato beetles and their soft larvae eat potato leaves. Pick them into soapy water. They are not a sweet-potato pest — different plant."],
             ["Brown wrecked leaves in wet warmth", "Late blight. Remove the foliage, don’t compost it, and don’t save those tubers as seed. Kennebec is notably easy to lose this way."],

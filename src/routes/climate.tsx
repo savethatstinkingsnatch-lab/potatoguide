@@ -148,6 +148,11 @@ function ClimatePage() {
               </li>
             ))}
           </ul>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            These months are a sketch for a season of this length, not a planting date from a
+            USDA zone. Slide them to your last frost, your first frost, and the week the soil is
+            actually warm enough. A hardiness zone only describes how cold winter usually gets.
+          </p>
           {current.id === "tropical" ? (
             <p className="mt-4 text-sm text-muted">
               The sweet-potato strip is solid on purpose. Start a crop any month you can give it
@@ -170,7 +175,8 @@ function ClimatePage() {
                 <dt className="font-medium">Sweet potatoes</dt>
                 <dd className="text-muted">
                   Plant slips only after the bag stays at 65°F / 18°C and frost is finished. They
-                  need roughly 90 to 120 frost-free days after that, more for purple flesh.
+                  need a long frost-free run after that — often about three to four months, longer
+                  for purple flesh. Count from planting day. Catalog “days” are approximate.
                 </dd>
               </div>
             </dl>

@@ -1,6 +1,6 @@
 import { S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { h as ATLAS, r as Tuber } from "./router-Biel0t-a.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BZx9H5LF.js
+import { h as ATLAS, r as Tuber } from "./router-Cj4KMphb.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-P--JKlmn.js
 var import_jsx_runtime = require_jsx_runtime();
 var ROWS = [
 	{
@@ -185,7 +185,7 @@ function Home() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
 							className: "mt-4 space-y-3 text-sm leading-relaxed text-cream/85",
 							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Green potatoes: Green means solanine, a natural poison. Peel away all the green deeply. Throw away a potato that is green through or tastes bitter." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Green potatoes: Light makes solanine, a natural poison. Do not eat a potato with extensive green skin or flesh, and do not eat the sprouts. Peel a small green patch away deeply. Throw away a potato that is green through or tastes bitter." }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "The plant: Potato leaves, stems, sprouts, and the small green berries that look like cherry tomatoes are poisonous. Keep kids and pets away from them. Never eat the berries." }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Canning: Potatoes and sweet potatoes must be pressure canned. Never use a water bath." })
 							]

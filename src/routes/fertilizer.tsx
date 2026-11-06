@@ -11,30 +11,30 @@ const STAGES: { when: string; potato: string; sweet: string }[] = [
   {
     when: "In the mix, before anything is planted",
     potato:
-      "This is the main feeding. For each 10 gallons, stir in ½ cup (8 tablespoons) of a 5-10-10, or an organic blend whose first number is the small one — something near 3-6-6 to 5-10-10. Add 3 tablespoons of kelp meal if you have it. Mix it through the soil. Do not pile it against the seed piece.",
+      "This is the main chance to feed, and only if the potting mix is not already fertilized. Use a vegetable product with a small first number — near 5-10-10, or an organic blend in that shape — at the rate on its label for the volume of mix you are using. Do not invent a spoonful, and do not pile it against the seed piece.",
     sweet:
-      "Compost in the recipe is the feeding. Optional, per 10 gallons: 3 tablespoons of that same low-nitrogen blend and 2 tablespoons of kelp. If the compost is rich, skip the blend.",
+      "Compost in the mix is often enough. If you add fertilizer, use a sweet-potato or low-nitrogen product and the rate on its label. Rich compost plus a full dose is how you get vines and pencil roots.",
   },
   {
     when: "When growth is a few inches tall",
     potato:
-      "Look at the leaves before you add anything. Deep green and rushing: add plain mix when you hill, no fertilizer. Pale, yellowish, and slow: water in about 1 tablespoon of the same blend around the edge of a 10-gallon bag, then hill.",
+      "Look at the leaves before you add anything. Deep green and rushing: hill with plain mix, no fertilizer. Pale, yellowish, and slow: a light feeding at the label rate, around the edge, then hill.",
     sweet:
-      "Do not side-dress on a schedule. A vine that is pale and barely moving after a month can have one watering of diluted kelp. A vine that is already covering the patio gets nothing.",
+      "Don't side-dress on a calendar. Excess nitrogen makes vine instead of roots. A pale, stalled vine can still need nitrogen — Utah and other extensions side-dress in some conditions. Follow a sweet-potato label or your local recommendation.",
   },
   {
     when: "Flowering and bulking",
     potato:
-      "Potassium matters more than nitrogen now. Stop nitrogen entirely. If plants look hungry, kelp is enough. Uneven water in this window causes knobs, cracks, and hollow heart — more often than a missing nutrient does.",
+      "Potassium matters more than more nitrogen now. Don't add a nitrogen boost unless the plants are clearly pale and the label allows it. Uneven water in this window causes knobs, cracks, and hollow heart — more often than a missing nutrient does.",
     sweet:
-      "Keep water steady and deep, then let the top inch dry. Drought followed by a soak splits roots. No fertilizer.",
+      "Keep water even. Drought followed by a soak splits roots. Don't add fertilizer unless the label or a local recommendation says this crop still needs it.",
   },
   {
     when: "The last month",
     potato:
-      "Nothing. Late nitrogen makes watery tubers that store badly. Stop watering when the vines yellow so skins can set.",
+      "Usually nothing. Late nitrogen makes watery tubers that store badly. Stop watering when the vines yellow so skins can set.",
     sweet:
-      "Nothing. Ease off water in the last week so the roots aren't waterlogged when you tip the bag.",
+      "Nothing extra. Ease off water in the last week so the roots aren't waterlogged when you tip the bag.",
   },
 ];
 
@@ -49,8 +49,9 @@ function FertilizerPage() {
         <p className="mt-4 text-lg leading-relaxed text-muted">
           A bag of 5-10-10 is 5% nitrogen, 10% phosphorus (as P₂O₅), and 10% potassium (as K₂O).
           Potatoes want that shape of analysis: a small first number. Sweet potatoes want even
-          less. In canvas, nutrients also leach out the walls, so the feeding goes into the mix
-          at the start rather than as a heavy dose later.
+          less, though a stalled vine can still need some nitrogen. How much is on the product
+          label, and it depends on what the mix already holds. This page does not give a spoonful
+          that fits every bag.
         </p>
       </header>
 
@@ -58,9 +59,10 @@ function FertilizerPage() {
         <article className="rounded-2xl bg-cream p-5 shadow-card">
           <h2 className="font-display text-2xl">Nitrogen</h2>
           <p className="mt-3 text-sm leading-relaxed text-muted">
-            Leaves. A little at the beginning gets potatoes out of the ground. Past that it delays
-            tubers, invites hollow heart, and on sweet potatoes turns the whole bag into vine.
-            Lawn fertilizer is the wrong bag — high nitrogen, and sometimes a herbicide.
+            Leaves. A little at the beginning gets potatoes out of the ground. Excess delays
+            tubers and, on sweet potatoes, turns the bag into vine. A pale, stalled sweet-potato
+            vine is a different case — follow the product label or a local recommendation. Lawn
+            fertilizer is the wrong bag: high nitrogen, and sometimes a herbicide.
           </p>
         </article>
         <article className="rounded-2xl bg-cream p-5 shadow-card">

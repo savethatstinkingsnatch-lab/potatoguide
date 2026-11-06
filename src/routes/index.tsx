@@ -146,8 +146,9 @@ function Home() {
             <h2 className="font-display text-3xl">Stay safe</h2>
             <ul className="mt-4 space-y-3 text-sm leading-relaxed text-cream/85">
               <li>
-                Green potatoes: Green means solanine, a natural poison. Peel away all the green
-                deeply. Throw away a potato that is green through or tastes bitter.
+                Green potatoes: Light makes solanine, a natural poison. Do not eat a potato with
+                extensive green skin or flesh, and do not eat the sprouts. Peel a small green
+                patch away deeply. Throw away a potato that is green through or tastes bitter.
               </li>
               <li>
                 The plant: Potato leaves, stems, sprouts, and the small green berries that look

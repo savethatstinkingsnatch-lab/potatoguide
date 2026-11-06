@@ -1,5 +1,5 @@
 import { S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/ground-DfpJkgu5.js
+//#region node_modules/.nitro/vite/services/ssr/assets/ground-DSsW-n1C.js
 var import_jsx_runtime = require_jsx_runtime();
 var GROUND_STEPS = [
 	"Work the row loose, about a foot deep. Don’t walk on it afterward. Leave the paths firm so you have dirt to pull up later.",
@@ -200,7 +200,7 @@ function GroundPage() {
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "mt-4 max-w-3xl space-y-3 text-sm leading-relaxed text-muted",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "For new potatoes, pull the hay back a few weeks after flowering and take what is sitting in the straw. Push the cover back so the rest stay dark." }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "For a storage crop, wait until the vines yellow. Pull the hay off, then lift the dirt hill from the side with a fork, starting wider than you think the tubers reached. Leave them on the soil only long enough to dry the dirt. An afternoon of sun greens them. The pantry chapter is the cure and the shelf: dark, near 45°F after a short cure. Sweet potatoes from the same garden still get a warm cure and never the refrigerator." })]
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "For new potatoes, pull the hay back a few weeks after flowering and take what is sitting in the straw. Push the cover back so the rest stay dark." }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: "For a storage crop, wait until the vines yellow. Pull the hay off, then lift the dirt hill from the side with a fork, starting wider than you think the tubers reached. Leave them on the soil only long enough to dry the dirt. An afternoon of sun greens them. Do not eat extensive green, and do not eat the sprouts. The pantry chapter is the cure and the shelf: dark, near 45°F after a short cure. Sweet potatoes from the same garden still get a warm cure and never the refrigerator." })]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 						className: "mt-6 text-sm text-muted",

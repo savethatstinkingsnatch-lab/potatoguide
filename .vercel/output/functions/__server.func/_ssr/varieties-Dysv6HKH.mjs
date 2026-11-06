@@ -1,7 +1,7 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { J as require_react, S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as COLOR_FILTERS, b as VARIETIES, n as Route, r as Tuber, x as cropLabel } from "./router-Biel0t-a.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/varieties-DJPOQyqq.js
+import { _ as COLOR_FILTERS, b as VARIETIES, n as Route, r as Tuber, x as cropLabel } from "./router-Cj4KMphb.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/varieties-Dysv6HKH.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function matches(v, crop, color) {
@@ -99,7 +99,7 @@ function VarietiesPage() {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "mt-6 max-w-3xl text-sm leading-relaxed text-muted",
-				children: "Potatoes and sweet potatoes are grown from tubers and slips, so every plant is a copy of its parent. “Open-pollinated” and “hybrid” don’t matter here. Some newer varieties are protected by a patent or a Plant Variety Protection certificate, and the tag or catalog will say so. You can grow those for your own table, but you may not sell or give away tubers or slips of them for planting. Older varieties are free to share."
+				children: "Potatoes and sweet potatoes are grown from tubers and slips, so every plant is a copy of its parent. “Open-pollinated” and “hybrid” don’t matter here. Some newer varieties are protected by a patent or a Plant Variety Protection certificate, and the tag or catalog will say so. You can grow those for your own table, but you may not sell or give away tubers or slips of them for planting. Older varieties are free to share. Days on each card are approximate, counted from the day the seed piece or slip is planted, not from the day you ordered it. Catalogs disagree, and a cool season runs longer."
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 				className: "mt-6 text-sm text-muted tabular-nums",
@@ -158,10 +158,11 @@ function VarietiesPage() {
 											/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
 												className: "mt-1 text-sm text-muted tabular-nums",
 												children: [
+													"about ",
 													v.days[0],
 													"–",
 													v.days[1],
-													" days"
+													" days from planting"
 												]
 											})
 										]

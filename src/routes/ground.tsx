@@ -175,7 +175,7 @@ function GroundPage() {
             For a storage crop, wait until the vines yellow. Pull the hay off, then lift the dirt
             hill from the side with a fork, starting wider than you think the tubers reached.
             Leave them on the soil only long enough to dry the dirt. An afternoon of sun greens
-            them. The pantry chapter is the cure and the shelf: dark, near 45°F after a short
+            them. Do not eat extensive green, and do not eat the sprouts. The pantry chapter is the cure and the shelf: dark, near 45°F after a short
             cure. Sweet potatoes from the same garden still get a warm cure and never the
             refrigerator.
           </p>

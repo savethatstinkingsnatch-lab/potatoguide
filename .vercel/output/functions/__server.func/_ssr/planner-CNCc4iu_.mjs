@@ -1,7 +1,7 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { J as require_react, S as require_jsx_runtime, b as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { a as BAG_PRESETS, c as cylinderGallons, d as formatLb, f as heatLine, g as CLIMATES, i as useGardenStore, l as formatCuFt, m as waterLine, o as checklist, p as planCrop, s as climateTitle, u as formatGal } from "./router-Biel0t-a.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/planner-ClOouR6P.js
+import { a as BAG_PRESETS, c as cylinderGallons, d as formatLb, f as heatLine, g as CLIMATES, i as useGardenStore, l as formatCuFt, m as waterLine, o as checklist, p as planCrop, s as climateTitle, u as formatGal } from "./router-Cj4KMphb.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/planner-CNCc4iu_.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function Stepper({ label, value, onChange }) {
@@ -68,9 +68,13 @@ function PlanBlock({ plan }) {
 					formatLb(plan.yieldHi),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "ml-2 font-sans text-base text-muted",
-						children: "lb, if the season cooperates"
+						children: "lb, a rough guess"
 					})
 				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "mt-2 text-sm leading-relaxed text-muted",
+				children: "Not a guaranteed harvest. Variety, spacing, weather, watering, and how large you let them grow all move it. A smaller bag usually grows less."
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dl", {
 				className: "mt-6 grid gap-4 text-sm sm:grid-cols-2",
@@ -112,16 +116,9 @@ function PlanBlock({ plan }) {
 							}) : null
 						]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("dd", {
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", {
 						className: "mt-2 text-muted",
-						children: [
-							"Stir ",
-							plan.blend,
-							" of a low-nitrogen blend (5-10-10 or close) through the whole mix, plus",
-							" ",
-							plan.kelp,
-							" kelp meal."
-						]
+						children: "Any fertilizer depends on the product and on what is already in the mix. Follow the label for this crop, or a local recommendation. This planner does not prescribe spoonfuls."
 					})
 				] })]
 			})

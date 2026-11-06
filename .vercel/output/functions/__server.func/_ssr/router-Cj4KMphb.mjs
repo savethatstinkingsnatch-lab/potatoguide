@@ -3,7 +3,7 @@ import { J as require_react, S as require_jsx_runtime, _ as lazyRouteComponent, 
 import { t as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
 import { n as create, t as persist } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/guide-Dq_4xpzb.js
+//#region node_modules/.nitro/vite/services/ssr/assets/guide-k8_WtO9t.js
 var MONTHS = [
 	"Jan",
 	"Feb",
@@ -33,7 +33,7 @@ var CLIMATES = [
 	{
 		id: "cold",
 		title: "Cold, short summer",
-		zones: "USDA 3–4, high latitude, high elevation",
+		zones: "Rough winter context · USDA 3–4",
 		summary: "Frost leaves late and comes back early. You get one tight window, and only varieties that finish.",
 		potato: "Chit seed indoors while the ground is still frozen. Plant as soon as the soil is workable and about 45°F / 7°C, usually late spring. Use early and midseason varieties. Cover the bag if a late frost is forecast — frozen tops cost you weeks you do not have.",
 		sweet: "Most years there is not enough heat. Georgia Jet is the only sweet potato worth trying, in the warmest spot you have, and you should expect small roots or none. Potatoes are the crop.",
@@ -74,10 +74,10 @@ var CLIMATES = [
 	{
 		id: "cool",
 		title: "Cool temperate",
-		zones: "USDA 5–6, classic potato country",
+		zones: "Rough winter context · USDA 5–6",
 		summary: "A real summer that still cools off at night. This is the climate both the storage potato and a careful sweet potato can share.",
 		potato: "Plant two to four weeks before the last frost, once soil is about 45°F / 7°C. Early, mid, and many late varieties finish. Russets and German Butterball belong here if water stays even.",
-		sweet: "Start slips indoors about a month before last frost. Plant out only when the bag stays at 65°F / 18°C — often late May or June. Choose 90 to 100 day oranges and creams. Long-season purple sweets usually miss.",
+		sweet: "Start slips indoors about a month before your last frost. Plant out only when the bag stays at 65°F / 18°C and frost is finished — in many of these gardens that is late May or June, but the soil thermometer decides, not the zone. Shorter-season oranges and creams are the realistic ones. Long-season purple sweets usually miss.",
 		risks: [
 			"A wet July invites late blight on lush vines, especially Kennebec. Don't compost infected leaves.",
 			"Scab shows up if the mix is alkaline or the bag dries out right as tubers set.",
@@ -115,7 +115,7 @@ var CLIMATES = [
 	{
 		id: "warm",
 		title: "Warm summer",
-		zones: "USDA 7–8",
+		zones: "Rough winter context · USDA 7–8",
 		summary: "Potatoes want the edges of the year. Sweet potatoes want the middle. Plant them on different calendars.",
 		potato: "Spring crop goes in late winter or early spring and comes out before the worst heat. A second planting in late summer can give a fall crop where frost waits until November. Skip baking russets in the hot stretch — tubers stall above about 80°F / 27°C soil.",
 		sweet: "This is their climate. Plant from midspring into early summer and harvest before frost. You have enough heat for orange, cream, and, if you plant promptly, purple-fleshed sweets.",
@@ -156,13 +156,13 @@ var CLIMATES = [
 	{
 		id: "hot",
 		title: "Hot, winter potato",
-		zones: "USDA 9–10, Gulf, desert, southern coasts",
+		zones: "Rough winter context · USDA 9–10",
 		summary: "Grow potatoes in the cool season and sweet potatoes through the heat. Summer is the wrong time for a russet.",
 		potato: "Plant in fall or winter and harvest before heat builds. White Rose, Desiree, Red Norland, and Yukon Gold are the reliable ones. Certified seed often sells out — order ahead and store it cool, not in a hot shed.",
 		sweet: "A full season, all colors, including Okinawan and Stokes Purple if they go in on time. Harvest before any rare frost, and cure them. The refrigerator will ruin the texture.",
 		risks: [
 			"Potato tubers quit setting once the bag stays hot. If flowers never turn into size, the soil was too warm.",
-			"Nematodes build up in ground soil. New mix in the bag each year sidesteps that.",
+			"Nematodes can carry over in garden soil. Start with a clean bag and certified seed or disease-free slips. Fresh mix each year lowers that risk. It does not erase it.",
 			"Desert wind dries canvas in a day. Plan on morning irrigation, not a weekly soak."
 		],
 		potatoMonths: [
@@ -197,7 +197,7 @@ var CLIMATES = [
 	{
 		id: "tropical",
 		title: "Tropical lowland",
-		zones: "USDA 11 and hotter lowlands",
+		zones: "Rough winter context · USDA 11 and hotter lowlands",
 		summary: "Sweet potatoes are the staple. Potatoes are a cool-season experiment that often fails on heat and day length.",
 		potato: "Near the equator, days stay near 12 hours and nights stay warm. Many temperate varieties never get a strong signal to tuberize, and bacterial wilt is common. If you try, use the coolest months only, certified seed, and a short-season variety. Highlands with real chill are a different climate — use Cool temperate instead.",
 		sweet: "Plant whenever you can give them about four hot months and a drier week at the end for harvest and curing. Vines root anywhere they touch soil, so you can take slips year-round.",
@@ -674,7 +674,7 @@ var VARIETIES = [
 		flesh: "Deep orange",
 		skinHex: "#c46a32",
 		fleshHex: "#e36a1e",
-		days: [90, 100],
+		days: [105, 110],
 		texture: "Moist, sweet after curing",
 		kitchen: "Baked, mashed, pies. The standard orange sweet potato.",
 		climates: [
@@ -705,7 +705,7 @@ var VARIETIES = [
 			"hot",
 			"tropical"
 		],
-		bag: "Same bag method as Beauregard. A little slower, so in cool zones don't wait to plant.",
+		bag: "Same bag method as Beauregard. A little slower, so where frost comes early, don't wait to plant.",
 		watch: "Bred for shape and disease tolerance in the field. In a fresh bag mix that advantage is smaller, but it is still an excellent orange."
 	},
 	{
@@ -718,7 +718,7 @@ var VARIETIES = [
 		flesh: "Orange",
 		skinHex: "#c47840",
 		fleshHex: "#e07028",
-		days: [100, 120],
+		days: [120, 135],
 		texture: "Moist, stores well",
 		kitchen: "Baking and storage. A classic older orange.",
 		climates: [
@@ -727,7 +727,7 @@ var VARIETIES = [
 			"hot",
 			"tropical"
 		],
-		bag: "Give it 15 gallons if you can. It wants the full days on the label.",
+		bag: "Give it 15 gallons if you can. It wants the long end of a sweet-potato season.",
 		watch: "Less sweet if you eat it uncured, straight from the bag."
 	},
 	{
@@ -762,9 +762,9 @@ var VARIETIES = [
 		flesh: "Orange",
 		skinHex: "#7a3858",
 		fleshHex: "#ef7a28",
-		days: [80, 90],
+		days: [90, 100],
 		texture: "Moist, milder until cured",
-		kitchen: "The short-season orange. Better after a week of curing.",
+		kitchen: "The shorter-season orange in many catalogs. Better after curing.",
 		climates: [
 			"cold",
 			"cool",
@@ -772,7 +772,7 @@ var VARIETIES = [
 			"hot"
 		],
 		bag: "The sweet potato for a cold summer, and still a gamble there. Black fabric under the bag and the hottest corner of the patio.",
-		watch: "Roots can be irregular. Flavor catches up only if you cure. In zone 3, consider it an experiment."
+		watch: "Roots can be irregular. Flavor catches up only if you cure. Where the frost-free season is short, treat it as an experiment."
 	},
 	{
 		id: "o-henry",
@@ -889,7 +889,7 @@ function cropLabel(crop) {
 	return crop === "potato" ? "Potato" : "Sweet potato";
 }
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/router-Biel0t-a.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-Cj4KMphb.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -1379,22 +1379,6 @@ function formatCuFt(n) {
 function round1(n) {
 	return Math.round(n * 10) / 10;
 }
-/** Tablespoons of a 5-10-10 style blend for the whole fill. */
-function blendTbsp(totalGal, crop) {
-	return (crop === "potato" ? 8 : 3) * totalGal / 10;
-}
-function kelpTbsp(totalGal, crop) {
-	return (crop === "potato" ? 3 : 2) * totalGal / 10;
-}
-function formatTbsp(tbsp) {
-	if (tbsp >= 12) {
-		const cups = tbsp / 16;
-		const quarters = Math.round(cups * 4) / 4;
-		const label = quarters === .25 ? "1/4" : quarters === .5 ? "1/2" : quarters === .75 ? "3/4" : String(quarters);
-		return `${quarters > 1 && quarters % 1 === .25 ? `${Math.floor(quarters)} 1/4` : quarters > 1 && quarters % 1 === .5 ? `${Math.floor(quarters)} 1/2` : quarters > 1 && quarters % 1 === .75 ? `${Math.floor(quarters)} 3/4` : label} cup${quarters === 1 ? "" : "s"}`;
-	}
-	return `${Math.max(.5, Math.round(tbsp * 2) / 2)} Tbsp`;
-}
 function planCrop(crop, bags, gallonsEach) {
 	const totalGal = bags * gallonsEach;
 	const plantsEach = crop === "potato" ? seedPieces(gallonsEach) : slipsPerBag(gallonsEach);
@@ -1410,15 +1394,13 @@ function planCrop(crop, bags, gallonsEach) {
 		plantsTotal,
 		seedLb: crop === "potato" ? round1(plantsTotal * 2 / 16) : null,
 		yieldLo: round1(lo * bags),
-		yieldHi: round1(hi * bags),
-		blend: formatTbsp(blendTbsp(totalGal, crop)),
-		kelp: formatTbsp(kelpTbsp(totalGal, crop))
+		yieldHi: round1(hi * bags)
 	};
 }
 function waterLine(climate, gallons) {
 	const small = gallons <= 7;
-	if (climate === "hot" || climate === "tropical" || climate === "warm") return small ? "In warm weather a small canvas bag can dry out between breakfast and dinner. Check every morning. Water until the fabric weeps, then stop." : "Check daily once days are warm. Water when the top inch is dry, deeply enough that the canvas darkens and drips, then let it breathe. Never leave it in a saucer.";
-	return small ? "Even in a cool summer, 5 and 7 gallon canvas dries faster than a bed. Every day or two while tubers are sizing. Skip only if the top inch is still cool and damp." : "Every two or three days in ordinary weather, daily in a hot spell. The wall of the bag is part of the evaporating surface — that is the price of the drainage.";
+	if (climate === "hot" || climate === "tropical" || climate === "warm") return small ? "In warm weather a small canvas bag can dry out between breakfast and dinner. Check by feel, often in the morning. Water when the top inch is dry, enough to moisten the mix through, then let it drain. Don't follow a clock, and don't leave it in a saucer. Bone-dry, then a flood, misshapes tubers." : "Check often once days are warm. Water when the top inch is dry, deeply enough that the mix is moist through, then let the bag drain. How fast it dries depends on the mix and the weather. Never leave it in a saucer.";
+	return small ? "Even in a cool summer, a small canvas bag dries faster than a bed. Check the top inch. Water when it is dry, enough to wet the mix, then let it drain. Skip a day if it is still damp." : "Check every couple of days in ordinary weather, and more often in a hot spell. The wall of the bag evaporates. Water for even moisture, not a set schedule.";
 }
 function heatLine(climate, mode) {
 	if (!(climate === "warm" || climate === "hot" || climate === "tropical")) {
@@ -1456,11 +1438,11 @@ function checklist(mode, climate) {
 		add("Planting", "sweet", "slip-in", "Plant slips deep enough to bury the stem, with the top leaves above the mix, and only once the bag is truly warm.");
 		add("Planting", "sweet", "mulch", "Mulch the surface so the canvas rim doesn't scorch the stem.");
 	}
-	add("Through the season", "either", "water", "Water when the top inch is dry, until the canvas weeps. Feet or bricks under the bag. No saucer of standing water.");
+	add("Through the season", "either", "water", "Water when the top inch is dry, enough to moisten the mix through, then let the bag drain. Feet or bricks under it. No saucer of standing water. Bags and mixes dry at different rates — check by feel, and keep the moisture even. Dry, then a flood, knobs and cracks potatoes and splits sweet potatoes.");
 	if (mode !== "sweet") add("Through the season", "potato", "nitrogen", "If the leaves are deep green and rushing, skip extra nitrogen. Pale, slow leaves can have one light feeding, then plain mix when you hill.");
 	if (mode !== "potato") {
 		add("Through the season", "sweet", "vines", "Lift vines that root into the ground or into the next bag, unless you are trying to make more slips on purpose.");
-		add("Through the season", "sweet", "no-n", "Do not side-dress sweet potatoes with nitrogen. Lush vines and pencil roots are the usual result.");
+		add("Through the season", "sweet", "no-n", "Avoid extra nitrogen. Lush vines and pencil roots are what too much nitrogen usually does. A pale, stalled vine can still need a light side-dressing — follow a sweet-potato fertilizer label or your local extension, not a ban and not a calendar.");
 	}
 	if (climate === "cold" && mode !== "sweet") add("Through the season", "potato", "frost", "Keep a cover handy. A late frost burns potato tops back to the soil and you may not have weeks to spare.");
 	if (climate === "cold" && mode !== "potato") add("Through the season", "sweet", "experiment", "Treat sweet potatoes here as an experiment: warmest corner, and small roots are a success.");
@@ -1468,13 +1450,13 @@ function checklist(mode, climate) {
 	if (climate === "warm" && mode !== "sweet") add("Through the season", "potato", "two-crops", "Pull the spring potatoes before the worst heat. A second bag can go in for fall if frost is still a long way off.");
 	if (mode !== "sweet") {
 		add("Harvest", "potato", "set-skins", "For storage potatoes, stop watering when the vines yellow and wait 10–14 days so skins set. New potatoes can come earlier — eat those soon.");
-		add("Harvest", "potato", "tip", "Tip the bag onto a tarp in the shade. An afternoon of sun greens the tubers.");
+		add("Harvest", "potato", "tip", "Tip the bag onto a tarp in the shade. An afternoon of sun greens the tubers. Don't eat extensive green, and don't eat the sprouts.");
 		add("Harvest", "potato", "store", "Cure storage tubers 10–14 days around 50–60°F in the dark, then keep table potatoes near 45°F. Not next to apples. Sweet potatoes are cured warm and never refrigerated — the pantry chapter has both.");
 	}
 	if (mode !== "potato") {
 		add("Harvest", "sweet", "before-frost", "Harvest sweet potatoes before frost. Cold injury shows up later as hard spots and rot.");
 		add("Harvest", "sweet", "gentle", "Tip gently and brush the soil. Don't wash them yet — wet roots rot in cure.");
-		add("Harvest", "sweet", "cure", "Cure about a week as close as you can get to 80–85°F and high humidity, then store at 55–60°F. Never the refrigerator.");
+		add("Harvest", "sweet", "cure", "Cure 7–14 days as close as you can get to 80–85°F and high humidity, then store around 55–60°F. Never the refrigerator.");
 	}
 	add("Afterward", "either", "dry-bags", "Dump, brush, and sun-dry the canvas until it is bone dry. Fold it only then. Wet cloth mildews and the fibers rot.");
 	return tasks;
@@ -1749,22 +1731,22 @@ var Route$10 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$9 = () => import("./routes-BZx9H5LF.mjs");
+var $$splitComponentImporter$9 = () => import("./routes-P--JKlmn.mjs");
 var Route$9 = createFileRoute("/")({
 	head: () => ({ meta: [{ title: "Potatoes: The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$9, "component")
 });
-var $$splitComponentImporter$8 = () => import("./bags-Dy_77z_Y.mjs");
+var $$splitComponentImporter$8 = () => import("./bags-DeGprOY6.mjs");
 var Route$8 = createFileRoute("/bags")({
 	head: () => ({ meta: [{ title: "Canvas grow bags · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$8, "component")
 });
-var $$splitComponentImporter$7 = () => import("./climate-BRurk0NA.mjs");
+var $$splitComponentImporter$7 = () => import("./climate-BhRYWtxL.mjs");
 var Route$7 = createFileRoute("/climate")({
 	head: () => ({ meta: [{ title: "Climate guide · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$7, "component")
 });
-var $$splitComponentImporter$6 = () => import("./fertilizer-VxbSTNFe.mjs");
+var $$splitComponentImporter$6 = () => import("./fertilizer-DkknC6Kn.mjs");
 var Route$6 = createFileRoute("/fertilizer")({
 	head: () => ({ meta: [{ title: "Fertilizer · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$6, "component")
@@ -1774,17 +1756,17 @@ var Route$5 = createFileRoute("/glossary")({
 	head: () => ({ meta: [{ title: "Glossary · Potatoes: The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-var $$splitComponentImporter$4 = () => import("./ground-DfpJkgu5.mjs");
+var $$splitComponentImporter$4 = () => import("./ground-DSsW-n1C.mjs");
 var Route$4 = createFileRoute("/ground")({
 	head: () => ({ meta: [{ title: "Ground and boxes · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-var $$splitComponentImporter$3 = () => import("./pantry-CNFVPT5f.mjs");
+var $$splitComponentImporter$3 = () => import("./pantry-D_YKgHLF.mjs");
 var Route$3 = createFileRoute("/pantry")({
 	head: () => ({ meta: [{ title: "Storage, canning, recipes · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./planner-ClOouR6P.mjs");
+var $$splitComponentImporter$2 = () => import("./planner-CNCc4iu_.mjs");
 var Route$2 = createFileRoute("/planner")({
 	head: () => ({ meta: [{ title: "Bag planner · The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
@@ -1794,7 +1776,7 @@ var Route$1 = createFileRoute("/start")({
 	head: () => ({ meta: [{ title: "Start here · Potatoes: The Potato Plot" }] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./varieties-DJPOQyqq.mjs");
+var $$splitComponentImporter = () => import("./varieties-Dysv6HKH.mjs");
 var COLORS = new Set(COLOR_FILTERS.map((c) => c.id));
 var Route = createFileRoute("/varieties")({
 	validateSearch: (search) => {

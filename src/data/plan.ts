@@ -121,36 +121,6 @@ function round1(n: number): number {
   return Math.round(n * 10) / 10;
 }
 
-/** Tablespoons of a 5-10-10 style blend for the whole fill. */
-export function blendTbsp(totalGal: number, crop: CropId): number {
-  const per10 = crop === "potato" ? 8 : 3;
-  return (per10 * totalGal) / 10;
-}
-
-export function kelpTbsp(totalGal: number, crop: CropId): number {
-  const per10 = crop === "potato" ? 3 : 2;
-  return (per10 * totalGal) / 10;
-}
-
-export function formatTbsp(tbsp: number): string {
-  if (tbsp >= 12) {
-    const cups = tbsp / 16;
-    const quarters = Math.round(cups * 4) / 4;
-    const label = quarters === 0.25 ? "1/4" : quarters === 0.5 ? "1/2" : quarters === 0.75 ? "3/4" : String(quarters);
-    const pretty =
-      quarters > 1 && quarters % 1 === 0.25
-        ? `${Math.floor(quarters)} 1/4`
-        : quarters > 1 && quarters % 1 === 0.5
-          ? `${Math.floor(quarters)} 1/2`
-          : quarters > 1 && quarters % 1 === 0.75
-            ? `${Math.floor(quarters)} 3/4`
-            : label;
-    return `${pretty} cup${quarters === 1 ? "" : "s"}`;
-  }
-  const halves = Math.max(0.5, Math.round(tbsp * 2) / 2);
-  return `${halves} Tbsp`;
-}
-
 export type CropPlan = {
   crop: CropId;
   bags: number;
@@ -162,8 +132,6 @@ export type CropPlan = {
   seedLb: number | null;
   yieldLo: number;
   yieldHi: number;
-  blend: string;
-  kelp: string;
 };
 
 export function planCrop(crop: CropId, bags: number, gallonsEach: number): CropPlan {
@@ -182,8 +150,6 @@ export function planCrop(crop: CropId, bags: number, gallonsEach: number): CropP
     seedLb: crop === "potato" ? round1((plantsTotal * 2) / 16) : null,
     yieldLo: round1(lo * bags),
     yieldHi: round1(hi * bags),
-    blend: formatTbsp(blendTbsp(totalGal, crop)),
-    kelp: formatTbsp(kelpTbsp(totalGal, crop)),
   };
 }
 
@@ -191,12 +157,12 @@ export function waterLine(climate: ClimateId, gallons: number): string {
   const small = gallons <= 7;
   if (climate === "hot" || climate === "tropical" || climate === "warm") {
     return small
-      ? "In warm weather a small canvas bag can dry out between breakfast and dinner. Check every morning. Water until the fabric weeps, then stop."
-      : "Check daily once days are warm. Water when the top inch is dry, deeply enough that the canvas darkens and drips, then let it breathe. Never leave it in a saucer.";
+      ? "In warm weather a small canvas bag can dry out between breakfast and dinner. Check by feel, often in the morning. Water when the top inch is dry, enough to moisten the mix through, then let it drain. Don't follow a clock, and don't leave it in a saucer. Bone-dry, then a flood, misshapes tubers."
+      : "Check often once days are warm. Water when the top inch is dry, deeply enough that the mix is moist through, then let the bag drain. How fast it dries depends on the mix and the weather. Never leave it in a saucer.";
   }
   return small
-    ? "Even in a cool summer, 5 and 7 gallon canvas dries faster than a bed. Every day or two while tubers are sizing. Skip only if the top inch is still cool and damp."
-    : "Every two or three days in ordinary weather, daily in a hot spell. The wall of the bag is part of the evaporating surface — that is the price of the drainage.";
+    ? "Even in a cool summer, a small canvas bag dries faster than a bed. Check the top inch. Water when it is dry, enough to wet the mix, then let it drain. Skip a day if it is still damp."
+    : "Check every couple of days in ordinary weather, and more often in a hot spell. The wall of the bag evaporates. Water for even moisture, not a set schedule.";
 }
 
 export function heatLine(climate: ClimateId, mode: CropMode): string | null {
@@ -310,7 +276,7 @@ export function checklist(mode: CropMode, climate: ClimateId): Task[] {
     "Through the season",
     "either",
     "water",
-    "Water when the top inch is dry, until the canvas weeps. Feet or bricks under the bag. No saucer of standing water.",
+    "Water when the top inch is dry, enough to moisten the mix through, then let the bag drain. Feet or bricks under it. No saucer of standing water. Bags and mixes dry at different rates — check by feel, and keep the moisture even. Dry, then a flood, knobs and cracks potatoes and splits sweet potatoes.",
   );
   if (mode !== "sweet") {
     add(
@@ -331,7 +297,7 @@ export function checklist(mode: CropMode, climate: ClimateId): Task[] {
       "Through the season",
       "sweet",
       "no-n",
-      "Do not side-dress sweet potatoes with nitrogen. Lush vines and pencil roots are the usual result.",
+      "Avoid extra nitrogen. Lush vines and pencil roots are what too much nitrogen usually does. A pale, stalled vine can still need a light side-dressing — follow a sweet-potato fertilizer label or your local extension, not a ban and not a calendar.",
     );
   }
 
@@ -379,7 +345,7 @@ export function checklist(mode: CropMode, climate: ClimateId): Task[] {
       "Harvest",
       "potato",
       "tip",
-      "Tip the bag onto a tarp in the shade. An afternoon of sun greens the tubers.",
+      "Tip the bag onto a tarp in the shade. An afternoon of sun greens the tubers. Don't eat extensive green, and don't eat the sprouts.",
     );
     add(
       "Harvest",
@@ -405,7 +371,7 @@ export function checklist(mode: CropMode, climate: ClimateId): Task[] {
       "Harvest",
       "sweet",
       "cure",
-      "Cure about a week as close as you can get to 80–85°F and high humidity, then store at 55–60°F. Never the refrigerator.",
+      "Cure 7–14 days as close as you can get to 80–85°F and high humidity, then store around 55–60°F. Never the refrigerator.",
     );
   }
 

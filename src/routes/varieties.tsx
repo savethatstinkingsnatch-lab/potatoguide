@@ -143,7 +143,9 @@ function VarietiesPage() {
         its parent. “Open-pollinated” and “hybrid” don’t matter here. Some newer varieties are
         protected by a patent or a Plant Variety Protection certificate, and the tag or catalog
         will say so. You can grow those for your own table, but you may not sell or give away
-        tubers or slips of them for planting. Older varieties are free to share.
+        tubers or slips of them for planting. Older varieties are free to share. Days on each
+        card are approximate, counted from the day the seed piece or slip is planted, not from
+        the day you ordered it. Catalogs disagree, and a cool season runs longer.
       </p>
 
       <p className="mt-6 text-sm text-muted tabular-nums">
@@ -189,7 +191,7 @@ function VarietiesPage() {
                       </p>
                       <h2 className="font-display text-2xl leading-tight text-ink">{v.name}</h2>
                       <p className="mt-1 text-sm text-muted tabular-nums">
-                        {v.days[0]}–{v.days[1]} days
+                        about {v.days[0]}–{v.days[1]} days from planting
                       </p>
                     </div>
                   </div>

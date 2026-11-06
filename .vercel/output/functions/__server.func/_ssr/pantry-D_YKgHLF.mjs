@@ -1,5 +1,5 @@
 import { S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/pantry-CNFVPT5f.js
+//#region node_modules/.nitro/vite/services/ssr/assets/pantry-D_YKgHLF.js
 var import_jsx_runtime = require_jsx_runtime();
 var RECIPES = [
 	{
@@ -117,8 +117,8 @@ function PantryPage() {
 							className: "mt-5 space-y-3 text-sm leading-relaxed text-muted",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Dig before frost. Brush the soil. Don’t wash. Every bruise is a place rot starts." }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Cure 4–7 days at 80–85°F / 27–29°C and about 85–90% humidity, up to 10 days if the skins were badly scuffed. A crate in a warm room, loosely tented so air still moves and water doesn’t drip on the roots." }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Then store at 55–60°F / 13–16°C, dark, with some humidity and some air. Cured roots keep for months. Uncured ones taste flat and rot sooner." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Cure 7–14 days at 80–85°F / 27–29°C and about 85–90% humidity. A crate in a warm room, loosely tented so air still moves and water doesn’t drip on the roots." }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Then store around 55–60°F / 13–16°C, dark, with some humidity and some air. Cured roots keep for months. Uncured ones taste flat and rot sooner." }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Below about 50°F they take chilling injury: hard centers, off flavor, rot when they warm up. The refrigerator does this. So does a potato cellar." })
 							]
 						})
@@ -133,9 +133,9 @@ function PantryPage() {
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
 					className: "mt-5 grid gap-3 sm:grid-cols-3",
 					children: [
-						["Green potatoes", "Light makes them bitter. Peel a small green patch. Throw out a tuber that is green through, or that tastes bitter after you cook a slice."],
+						["Green potatoes", "Light makes solanine. Do not eat a potato with extensive green skin or flesh, and do not eat the sprouts. Peel a small green patch deeply. Throw out a tuber that is green through, or that tastes bitter after you cook a slice."],
 						["Soft, wet, or frozen", "One rotten potato takes the crate. Frost-damaged sweets and potatoes do not cure back into sound food."],
-						["A long sprout on a shriveled tuber", "Rub a short sprout off a potato that is still firm, and eat it soon. A soft, heavily sprouted one is finished."]
+						["A long sprout on a shriveled tuber", "Rub a short sprout off a potato that is still firm, throw the sprout away, and eat the potato soon. Do not eat sprouts. A soft, heavily sprouted tuber is finished."]
 					].map(([title, body]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 						className: "rounded-2xl bg-cream p-5 shadow-card",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {

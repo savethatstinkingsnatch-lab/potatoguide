@@ -4,7 +4,7 @@ import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SiteShell } from "@/components/site-shell";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Potatoes: The Potato Plot";
+const APP_NAME = "Volume 13: Potatoes (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -15,7 +15,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "A grower's guide to potatoes and sweet potatoes — every color, the climate they actually like, how to feed them, and how to grow them in canvas bags.",
+          "Volume 13 of The Education Revolution, by Blue and the Awesome Dudes. A grower's guide to potatoes and sweet potatoes — every color, the climate they actually like, how to feed them, and how to grow them in canvas bags.",
       },
       { name: "theme-color", content: "#f3eee6" },
     ],
